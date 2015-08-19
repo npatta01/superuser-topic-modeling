@@ -43,8 +43,13 @@ def tokenize_and_stem(text,stemmer=SnowballStemmer("english")):
     for token in tokens:
         if re.search('[a-zA-Z]', token):
             filtered_tokens.append(token)
-    stems = [stemmer.stem(t) for t in filtered_tokens]
-    return stems
+    
+
+    if stemmer is not None:
+        stems = [stemmer.stem(t) for t in filtered_tokens]
+        return stems
+    else:
+        return filtered_tokens
 
 def remove_stopwords(tokenized_text,stopwords = nltk.corpus.stopwords.words('english')):
     return [word for word in tokenized_text if word not in stopwords]
