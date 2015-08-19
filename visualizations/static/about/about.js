@@ -1,14 +1,19 @@
 'use strict';
 
-angular.module('topic_app.topic', ['ngRoute'])
+angular.module('topic_app.about', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/topic', {
-    templateUrl: 'topic/topic.html',
-    controller: 'TopicCtrl'
+  $routeProvider.when('/about', {
+    templateUrl: 'static/about/about.html',
+    controller: 'AboutCtrl'
   });
 }])
 
-.controller('TopicCtrl', [function() {
+.controller('AboutCtrl', ['$scope', function($scope) {
+      $scope.items = [
+        {path: '/topics', title: 'Topics', tab_name: 'tab_topics'},
+        {path: '/about', title: 'About', tab_name: 'tab_about'}
+
+      ];
 
 }]);
