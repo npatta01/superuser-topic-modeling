@@ -27,11 +27,13 @@ def get_xml_file_contents(xml_file_path, max_num_children=None):
     root = tree.getroot()
     elements_seen = 0
     for child in root:
-        yield child.attrib
-        elements_seen += 1
-
-        if max_num_children is not None and max_num_children > elements_seen:
+        if max_num_children is not None and elements_seen > max_num_children :
             break
+        else:
+            yield child.attrib
+            elements_seen += 1
+            #print ("%s/%s" %(elements_seen,max_num_children))
+
 
 
 def strip_tags(html_text):
@@ -109,22 +111,36 @@ class XmlCorpus(object):
         :return:
         """
         self.dump_file = dump_file
-        if dictionary is None:
-            dictionary = gensim.corpora.Dictionary()
-        self.dictionary = dictionary
+        
         self.clip_docs = clip_docs
         self.normalizer = normalizer
         self.documents_parsed = 0
         self.body_field=body_field
-
-    def __iter__(self):
-        print (self.clip_docs)
+        
+        self.dictionary = dictionary
+        if dictionary is None:
+            self.dictionary = gensim.corpora.Dictionary()
+            self.__update_dictionary()
+        
+        
+        
+    def _collection_iterator(self):
         for document in get_xml_file_contents(self.dump_file, self.clip_docs):
             doc_content = document[self.body_field]
             tokens = self.normalizer.process(doc_content)
-            yield self.dictionary.doc2bow(tokens, allow_update=True)
+            yield tokens
+    
+    def __update_dictionary(self):
+        for doc_tokens in self._collection_iterator():
+            self.dictionary.doc2bow(doc_tokens, allow_update=True)
             self.documents_parsed += 1
-            print(self.documents_parsed)
+    
+
+    def __iter__(self):
+        print (self.clip_docs)
+        for doc_tokens in self._collection_iterator():
+            yield self.dictionary.doc2bow(doc_tokens)
+            
 
     def __len__(self):
         return self.documents_parsed
