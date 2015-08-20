@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+</head>
+<body>
+    <div id="viz"></div>
+    <script type="text/javascript">
+
+   
+    
+    
+    
+    d3.json("vegas.json", function(error, vegas) {
+
+       vegas.children.forEach(function(d) {
+       d3.select("body")
+         .append("a")
+         .attr("href", d.url)
+         .append("img")
+         .attr({
+           height: 50,
+           style: "opacity: 0.5",
+           src: d.thumbnail
+         });
+       });
+   });
+
+       d3.select("body")
+         .append("p")
+         .text("New paragraph!")
+         .attr({
+           style: "fill: white"
+         });
+    
+    
+    </script>
+</body>
+</html>
