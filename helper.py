@@ -7,6 +7,8 @@ import re
 from nltk.stem.snowball import SnowballStemmer
 import gensim
 import logging
+from textblob import TextBlob
+
 
 
 def get_xml_file_as_df(xml_file_path, max_num_children=None):
@@ -74,28 +76,70 @@ def tokenize_and_stem(text, stemmer=SnowballStemmer("english")):
 
 
 def remove_stopwords(tokenized_text, stopwords=nltk.corpus.stopwords.words('english')):
-    return [word for word in tokenized_text if word not in stopwords]
+    """
+    For every word in sentence, lower and reduce 
+    """
+    return [word for word in tokenized_text if word.lower() not in stopwords] 
+
+def filter_parts_of_speech(sentence,part_of_speech_to_keep=None):
+    if part_of_speech_to_keep is None:
+        return sentence
+    else:
+        sentence_blob = TextBlob(sentence)
+        result=" ".join([ res[0] for res in sentence_blob.tags if res[1] in part_of_speech_to_keep])
+        
+        return result
 
 
 class Normalizer(object):
-    def __init__(self, stem=False, stopword_removal=False, strip_html_tags=False):
+    def __init__(self, stem=False, stopword_removal=False, strip_html_tags=False,
+        filter_parts_of_speech=False,min_word_length=1
+    ):
         self.stem = stem
         self.stopword_removal = stopword_removal
         self.strip_html_tags = strip_html_tags
+        self.filter_parts_of_speech=filter_parts_of_speech
+        self.min_word_length=min_word_length
+        
+        #valid_pos= ["FW","NN","NNS","NNP","NNPS","VB","VBZ","VBP","VBD","VBN","VBG"]
+        
+        valid_pos= ["FW","NN","NNS","NNP","NNPS"]
+
+        valid_pos_set=set(valid_pos)
+        
+        
 
         if self.stem:
             self.stemmer = SnowballStemmer("english")
         else:
             self.stemmer=None
+            
+        if filter_parts_of_speech:
+            self.valid_pos_set=valid_pos_set
+        else:
+            self.valid_pos_set=None
+            
+        self.stopwords=nltk.corpus.stopwords.words('english')
+        extra_stopwords=["'s","n't","'m"]
+        self.stopwords=self.stopwords+extra_stopwords
+        self.stopwords=set(self.stopwords)
+        
 
     def process(self, document):
         if self.strip_html_tags:
             document = strip_tags(document)
 
+        if self.valid_pos_set:
+            document = filter_parts_of_speech(document)
+        
         document = tokenize_and_stem(document,stemmer=self.stemmer)
 
         if self.stopword_removal:
-            document = remove_stopwords(document)
+            document = remove_stopwords(document,self.stopwords)
+            
+        document =[word for word in document if len(word)>self.min_word_length]
+        
+        document = [word for word in document if word[0]!="'"]
 
         return document
 
