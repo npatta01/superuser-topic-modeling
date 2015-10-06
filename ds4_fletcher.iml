@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/data" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/.ipynb_checkpoints" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 2.7.9 virtualenv at ~/.virtualenvs/pyspark" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -1,4 +1,5 @@
 import os
+import visualizations
 from visualizations import app
 
 
