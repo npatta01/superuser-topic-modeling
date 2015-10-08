@@ -1,4 +1,71 @@
-<p>This is the partial for topic.</p>
+<div class="container">
+
+    <div class="row">
+
+        <form novalidate ng-model="request" novalidate="novalidate" class="form-inline" role="form">
 
 
-<jqcloud words="words" width="500" height="350" steps="7" autoResize="True"></jqcloud>
+            <div class="form-group" show-errors>
+
+                <label class="control-label">Topic</label>
+
+                <div>
+
+                    <select class="form-control" ng-model="topic"
+                            ng-options="t.topic_id for t in topics track by t.topic_id" ng-change="updatePage()"></select>
+
+                </div>
+
+
+            </div>
+            <div class="form-group" show-errors>
+
+                <label class="control-label">Num Words</label>
+
+                <div>
+
+                    <input type="number" class="form-control" ng-model="numberOfWords" ng-change="updatePage()"
+                            >
+
+
+                </div>
+
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+    <div ng-show="topic">
+
+        <div class="row">
+
+            <h2>Topic# {{topic.topic_id}} {{topic.name}} </h2>
+
+        </div>
+
+
+        <div class="row">
+            <p class="lead">#Todo: Insert hopefully Awesome description</p>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <jqcloud words="topic.counts" id="cloud-dynamic" auto-resize="true" steps="7"
+                         font-size="{from:0.09, to:0.04}"></jqcloud>
+            </div>
+
+            <div class="col-md-6">
+                <nvd3 options="options" data="data"></nvd3>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>

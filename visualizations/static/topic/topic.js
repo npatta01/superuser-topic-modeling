@@ -1,22 +1,75 @@
 'use strict';
 
-angular.module('topic_app.topic', ['ngRoute','angular-jqcloud'])
+angular.module('topic_app.topic', ['ngRoute', 'angular-jqcloud'])
 
     .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/topic', {
+        $routeProvider.when('/topic/:topicId?', {
             templateUrl: 'static/topic/topic.html',
             controller: 'TopicCtrl'
         });
     }])
 
-    .controller('TopicCtrl', ['$scope', function ($scope) {
+    .controller('TopicCtrl', ['TopicService', '$scope', '$routeParams', function (TopicService, $scope, $routeParams) {
 
-        $scope.words = [
-            {text: "Lorem", weight: 0.01},
-            {text: "Ipsum", weight: 0.5},
-            {text: "Dolor", weight: 0.03},
-            {text: "Sit", weight: 0.7}
+        $scope.dataReady = false;
 
-        ];
+        $scope.topic = null;
+
+        $scope.numberOfWords = 10;
+
+        TopicService.getAllTopics().then(function (result) {
+            $scope.topics = result;
+            var topicId=parseInt($routeParams.topicId);
+            $scope.topic = $scope.topics[topicId] ;
+            $scope.updatePage();
+
+        });
+
+
+        $scope.updatePage = function () {
+            var that = this;
+
+
+            that.createChart = function () {
+                $scope.options = {
+                    chart: {
+                        type: 'multiBarHorizontalChart',
+                        height: 600,
+                        x: function (d) {
+                            return d.text;
+                        },
+                        y: function (d) {
+                            return d.weight;
+                        },
+                        showControls: false,
+                        showValues: false,
+                        transitionDuration: 500,
+                        xAxis: {
+                            showMaxMin: false
+                        },
+                        yAxis: {
+                            axisLabel: 'Weight',
+                            tickFormat: function (d) {
+                                return d3.format(',.2f')(d);
+                            }
+                        }
+                    }
+                };
+                $scope.data = [
+                    {
+                        "key": "words"
+                        , "color": "#1f77b4"
+                        , "values": $scope.topic.counts
+                    }
+                ];
+            };
+
+            TopicService.getTopicDetail($scope.topic.topic_id, $scope.numberOfWords).then(function (result) {
+                $scope.topic = result.data.res;
+
+                that.createChart();
+            });
+        };
+
 
     }]);

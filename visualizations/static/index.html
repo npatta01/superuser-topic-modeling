@@ -10,7 +10,6 @@
 
 
     <title>Aweseom Portal</title>
-    <link rel="stylesheet" href="/static/app/css/app.css"/>
 
     <link rel="stylesheet" href="/static/libs/jqcloud2/dist/jqcloud.min.css"/>
 
@@ -22,27 +21,43 @@
     <link rel="stylesheet" href="/static/libs/bootstrap/dist/css/bootstrap.css">
     <link href="/static/libs/fontawesome/css/font-awesome.css" rel="stylesheet">
 
-    
+
     <script src="/static/libs/angular/angular.min.js"></script>
 
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>-->
 
     <script src="/static/libs/angular-route/angular-route.min.js"></script>
-    
+
     <script src="/static/libs/angular-aria/angular-aria.min.js"></script>
 
     <script src="/static/libs/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-
 
 
     <script src="/static/libs/jqcloud2/dist/jqcloud.min.js"></script>
 
     <script src="/static/libs/angular-jqcloud/angular-jqcloud.js"></script>
 
-    <style>
-        html, body { width: 100%; height: 100%; margin: 0; padding: 0; }
-        #cloud-dynamic { width: 80%; height: 400px; }
-    </style>
+    <script src="/static/libs//d3/d3.js"></script>
+    <script src="/static/libs//nvd3/nv.d3.js"></script>
+    <!-- or use another assembly -->
+    <script src="/static/libs//angular-nvd3/dist/angular-nvd3.js"></script>
+    <link rel="stylesheet" href="/static/libs//nvd3/nv.d3.css">
+
+    <script type='text/javascript' src="/static/libs/angular-animate/angular-animate.min.js"></script>
+
+
+    <link rel='stylesheet' href='/static/libs//angular-loading-bar/build/loading-bar.min.css' type='text/css'
+          media='all'/>
+
+    <script type='text/javascript' src="/static/libs/marked/marked.min.js"></script>
+
+    <script type='text/javascript' src="/static/libs/angular-loading-bar/build/loading-bar.min.js"></script>
+
+    <script type='text/javascript' src="/static/libs/angular-marked/angular-marked.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="/static/app.css"/>
 
 </head>
 
@@ -59,7 +74,7 @@
             <a class="navbar-brand" href="#">Some Portal</a>
         </div>
         <div class="collapse navbar-collapse" ng-controller="NavCtrl">
-            <ul class="nav navbar-nav" ng-repeat="item in items" ng-cloak>
+            <ul class="nav navbar-nav" ng-repeat="item in sections" ng-cloak>
 
                 <li ng-class="{active: isActive(item)}" id="{{ item.tab_name }}">
                     <a ng-href="#{{ item.path }}">{{ item.title }}
@@ -75,10 +90,10 @@
 </div>
 
 <div>
-<ul class="menu">
-    <li><a href="#/topics">Topics</a></li>
-    <li><a href="#/topic">Topic</a></li>
-  </ul>
+    <ul class="menu">
+        <li><a href="#/topics">Topics</a></li>
+        <li><a href="#/topic">Topic</a></li>
+    </ul>
 </div>
 
 

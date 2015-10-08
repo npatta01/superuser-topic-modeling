@@ -1,1 +1,18 @@
-<p>This is the partial for topics.</p>
+<div class="container">
+
+    <div class="row">
+        <h1> Topics:</h1>
+    </div>
+    <div class="row">
+        <div ng-repeat="topic in topics track by topic.topic_id">
+
+            <h3>{{topic.topic_id}}:
+                <a ng-href="#/topic/{{topic.topic_id}}">{{topic.name}}</a>
+
+
+            </h3>
+        </div>
+    </div>
+
+
+</div>
