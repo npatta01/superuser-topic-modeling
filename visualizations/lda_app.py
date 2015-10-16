@@ -1,7 +1,7 @@
 import flask
 import gensim
 from flask import request, Response
-
+import os
 from drivers import BaseDriver
 from models import Topic
 from predict import Predict
@@ -78,9 +78,17 @@ def jsonpcikle_topic():
     return resp
 
 
-@app.route('/material')
-def index2():
-    return app.send_static_file('index2.html')
+
+@app.route('/libs/<path:path>')
+def libs(path):
+    path=os.path.join('libs',path)
+    return app.send_static_file(path)
+
+
+@app.route('/<path:path>')
+def static_file(path):
+    return app.send_static_file(path)
+
 
 
 @app.route('/')

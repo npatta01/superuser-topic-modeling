@@ -1,15 +1,13 @@
-<!doctype html>
-<html lang="en" ng-app="topic_app">
+<!DOCTYPE html>
+<html ng-app="topic_app">
 <head>
+    <title>(X)-TDS</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/static/favicon.ico">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
 
-
-    <title>Aweseom Portal</title>
 
     <link rel="stylesheet" href="/static/libs/jqcloud2/dist/jqcloud.min.css"/>
 
@@ -31,6 +29,10 @@
     <script src="/static/libs/angular-aria/angular-aria.min.js"></script>
 
     <script src="/static/libs/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="/static/libs/angular-material/angular-material.js"></script>
+
+    <link rel="stylesheet" href="/static/libs/angular-material/angular-material.min.css">
 
 
     <script src="/static/libs/jqcloud2/dist/jqcloud.min.js"></script>
@@ -56,67 +58,80 @@
     <script type='text/javascript' src="/static/libs/angular-marked/angular-marked.min.js"></script>
 
 
-
     <link rel="stylesheet" href="/static/app.css"/>
 
+
 </head>
+<body layout="column" ng-controller="NavCtrl as nc">
 
-<body>
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Some Portal</a>
-        </div>
-        <div class="collapse navbar-collapse" ng-controller="NavCtrl">
-            <ul class="nav navbar-nav" ng-repeat="item in sections" ng-cloak>
-
-                <li ng-class="{active: isActive(item)}" id="{{ item.tab_name }}">
-                    <a ng-href="#{{ item.path }}">{{ item.title }}
-                    </a></li>
+<md-toolbar layout="row">
+    <md-button class="menu" hide-gt-sm ng-click="toggleMenu()" aria-label="Show User List">
+        <md-icon md-svg-icon="menu"></md-icon>
+    </md-button>
+    <h1>Super User Topic Modelling</h1>
+</md-toolbar>
 
 
-            </ul>
+<div flex layout="row">
+
+    <md-sidenav md-is-locked-open="$mdMedia('gt-sm')" class="md-whiteframe-z2" md-component-id="left">
+        <md-list>
+            <md-list-item ng-repeat="sec in nc.sections">
+                <md-button ng-href="#{{sec.path}}" ng-class="{'selected' : sec == mc.activeSection() }">
+                    <h2 class="md-title">{{::sec.title}}</h2>
+                </md-button>
+            </md-list-item>
+        </md-list>
+    </md-sidenav>
 
 
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</div>
 
-<div>
-    <ul class="menu">
-        <li><a href="#/topics">Topics</a></li>
-        <li><a href="#/topic">Topic</a></li>
-    </ul>
+
+    <div ng-view="content" flex layout="row"></div>
 </div>
 
 
-<div ng-view></div>
-
-<!--<div>Angular seed app: v<span app-version></span></div>-->
-
-<!-- In production use:
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
--->
-
-<!-- shim is needed to support upload progress/abort for HTML5 and non-HTML5 FormData browsers.-->
-<!-- use html5-shim.js instead if you just support HTML5 browsers and you need progress event-->
-<!-- Note: shim.js MUST BE PLACED BEFORE angular.js and angular-file-upload.js AFTER angular.js-->
 
 
-<!-- angular file upload-->
+
+<!-- bower:css -->
+<link rel="stylesheet" href="libs/jqcloud2/dist/jqcloud.css" />
+<link rel="stylesheet" href="libs/nvd3/src/nv.d3.css" />
+<link rel="stylesheet" href="libs/angular-loading-bar/build/loading-bar.css" />
+<link rel="stylesheet" href="libs/angular-material/angular-material.css" />
+<!-- endbower -->
 
 
-<script src="/static/app.js"></script>
+<!-- bower:js -->
+<script src="libs/jquery/dist/jquery.js"></script>
+<script src="libs/angular/angular.js"></script>
+<script src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="libs/angular-route/angular-route.js"></script>
+<script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+<script src="libs/angular-aria/angular-aria.js"></script>
+<script src="libs/jqcloud2/dist/jqcloud.js"></script>
+<script src="libs/angular-jqcloud/angular-jqcloud.js"></script>
+<script src="libs/d3/d3.js"></script>
+<script src="libs/nvd3/nv.d3.js"></script>
+<script src="libs/angular-nvd3/dist/angular-nvd3.min.js"></script>
+<script src="libs/angular-loading-bar/build/loading-bar.js"></script>
+<script src="libs/angular-animate/angular-animate.js"></script>
+<script src="libs/marked/lib/marked.js"></script>
+<script src="libs/angular-marked/angular-marked.js"></script>
+<script src="libs/angular-material/angular-material.js"></script>
+<!-- endbower -->
+
+
 <script src="/static/topics/topics.js"></script>
 <script src="/static/topic/topic.js"></script>
 <script src="/static/about/about.js"></script>
+<script src="/static/main/models.js"></script>
+
+<script src="/static/app.js"></script>
 
 </body>
+
+
+
+
 </html>

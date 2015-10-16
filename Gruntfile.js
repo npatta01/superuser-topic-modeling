@@ -15,8 +15,7 @@ module.exports = function (grunt) {
         yeoman: {
             // configurable paths
             app: require('./bower.json').appPath || 'app',
-            client: 'visualizations/static',
-            clientJs: 'visualizations/static/js'
+            client: 'visualizations/static'
           },
 
 
@@ -24,7 +23,7 @@ module.exports = function (grunt) {
         watch: {
 
             client: {
-                files: ['<%= yeoman.clientJs %>/**/*.ts',"!<%= yeoman.clientJs %>/**/*.spec.ts",'!<%= yeoman.clientJs %>/references_*.ts'],
+                files: ['<%= yeoman.client %>/*.ts','<%= yeoman.client %>/**/*.ts'],
                 tasks: ['ts:client']
 
             },
@@ -61,7 +60,7 @@ module.exports = function (grunt) {
 
 
         clean: {
-            client: ['<%= yeoman.clientJs %>/**/*.js', '<%= yeoman.clientJs %>/**/*.js.map']
+            client: ['<%= yeoman.client %>/**/*.js', '<%= yeoman.client %>/**/*.js.map']
 
 
         },
@@ -78,6 +77,7 @@ module.exports = function (grunt) {
                 mainFiles: {
                     //'undesrscore.string': 'underscore.string/dist/undesrscore.string.min.js',
                     //'undesrscore.string': 'lib/undesrscore.string.js',
+                    'fontawesome':['css/font-awesome.css']
                 },
                 exclude: [
                     'jasmine', 'angular-scenario', 'angular-mocks'
@@ -93,18 +93,18 @@ module.exports = function (grunt) {
 
 
                 src: [
-                    "<%= yeoman.clientJs %>/**/*/*.ts",
-                    "!<%= yeoman.clientJs %>/**/*/*.spec.ts"
+                    "<%= yeoman.client %>/app.ts"
+                    ,"<%= yeoman.client %>/**/*/*.ts"
 
                 ],
                 // If specified, generate this file that to can use for reference management
-                reference: '<%= yeoman.clientJs %>/references.ts',
+                reference: '<%= yeoman.client %>/references.ts',
 
-                out: '<%= yeoman.clientJs %>/app_combined.js',
+                //out: '<%= yeoman.client %>/app_combined.js',
                 // watch: "src/main/webapp/js",
                 options: {
                     // 'es3' (default) | 'es5'
-                    target: 'es6',
+                    target: 'es5',
                     // 'amd' (default) | 'commonjs'
                     module: 'amd',
                     // true (default) | false
@@ -115,27 +115,8 @@ module.exports = function (grunt) {
                     removeComments: false
                 }
 
-            },
-
-            server: {
-                // The source TypeScript files, http://gruntjs.com/configuring-tasks#files
-
-                src: ['<%= yeoman.server %>/**/*.ts'],
-                // watch: "src/main/webapp/js",
-                options: {
-                    // 'es3' (default) | 'es5'
-                    target: 'es5',
-                    // 'amd' (default) | 'commonjs'
-                    module: 'commonjs',
-                    // true (default) | false
-                    sourceMap: true,
-                    // true | false (default)
-                    declaration: false,
-                    // true (default) | false
-                    removeComments: false
-                }
-
             }
+
 
 
         },
@@ -154,7 +135,7 @@ module.exports = function (grunt) {
         tslint: {
 
             files: {
-                src: ['<%= yeoman.clientJs %>/*.ts']
+                src: ['<%= yeoman.client %>/*.ts']
 
             }
         }

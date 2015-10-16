@@ -6,7 +6,7 @@
             <div layout="row" layout-padding layout-wrap layout-fill style="padding-bottom: 32px;" ng-cloak class="topicsContainer">
 
 
-                <md-whiteframe class="md-whiteframe-1dp" flex="25" layout="column" layout-align="center center"  ng-repeat="topic in topics track by topic.topic_id" ng-mouseover="hoverIn(topic)" ng-mouseleave="hoverOut(topic)">
+                <md-whiteframe class="md-whiteframe-1dp" flex="25" layout="column" layout-align="center center"  ng-repeat="topic in vm.topics track by topic.topic_id" ng-mouseover="vm.hoverIn(topic)" ng-mouseleave="vm.hoverOut(topic)">
 
                     <div ng-hide="topic.active">
 
