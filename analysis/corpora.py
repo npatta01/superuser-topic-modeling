@@ -3,6 +3,7 @@ __author__ = 'npatta01'
 import gensim
 import helper
 from helper import SuperUserDatabase
+import logging
 
 
 class XmlCorpus(object):
@@ -63,12 +64,20 @@ class SuperUserSqliteCorpus(object):
         self.normalizer = normalizer
 
         self.dictionary = gensim.corpora.Dictionary()
+
         self.__update_dictionary()
+        logging.debug("Created Dictionary")
 
     def _collection_iterator(self):
+        docs_seen = 0
         for post in self.db:
             doc_content = post.full_content
             tokens = self.normalizer.process(doc_content)
+            docs_seen += 1
+            if docs_seen % 1000 == 0:
+                logging.debug("Iterated over %s of %s docs" % (docs_seen, self.documents_parsed))
+                print("Iterated over %s of %s docs" % (docs_seen, self.documents_parsed))
+
             yield tokens
 
     def __update_dictionary(self):

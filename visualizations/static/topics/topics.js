@@ -16,5 +16,12 @@ angular.module('topic_app.topics', ['ngRoute', 'ngAria'])
             $scope.topics = result;
         });
 
+        $scope.hoverIn = function(topic){
+            topic.active=true;
+        };
+
+        $scope.hoverOut = function(topic){
+            topic.active=false;
+        }
 
     }]);

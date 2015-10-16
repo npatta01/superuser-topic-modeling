@@ -43,7 +43,7 @@ def strip_tags(html_text):
     :return:
     """
     try:
-        soup = BeautifulSoup(html_text)
+        soup = BeautifulSoup(html_text, "html.parser")
         cleaned_text = ''.join([e for e in soup.recursiveChildGenerator() if isinstance(e, unicode)])
         return cleaned_text
     except:
@@ -58,7 +58,7 @@ def tokenize_and_stem(text, stemmer=SnowballStemmer("english")):
     :return:
     """
     # first tokenize by sentence, then by word to ensure that punctuation is caught as it's own token
-    tokens = [word for sent in nltk.sent_tokenize(text) for word in nltk.word_tokenize(sent)]
+    tokens = [word.strip() for sent in nltk.sent_tokenize(text) for word in nltk.word_tokenize(sent)]
     filtered_tokens = []
     # filter out any tokens not containing letters (e.g., numeric tokens, raw punctuation)
     for token in tokens:
@@ -72,7 +72,7 @@ def tokenize_and_stem(text, stemmer=SnowballStemmer("english")):
         return filtered_tokens
 
 
-def remove_stopwords(tokenized_text, stopwords=nltk.corpus.stopwords.words('english')):
+def remove_stopwords(tokenized_text, stopwords=[]):
     """
     For every word in sentence, lower and reduce 
     """
@@ -92,6 +92,7 @@ def filter_parts_of_speech(sentence, part_of_speech_to_keep=None):
 class Normalizer(object):
     def __init__(self, stem=False, stop_words=None, strip_html_tags=False,
                  filter_parts_of_speech=False, min_word_length=1
+                 , lower_case=False
                  ):
         self.stem = stem
 
@@ -99,13 +100,15 @@ class Normalizer(object):
         self.filter_parts_of_speech = filter_parts_of_speech
         self.min_word_length = min_word_length
 
+        self.lower_case = lower_case
+
         # valid_pos= ["FW","NN","NNS","NNP","NNPS","VB","VBZ","VBP","VBD","VBN","VBG"]
 
         valid_pos = ["FW", "NN", "NNS", "NNP", "NNPS"]
 
         with open(stop_words) as temp_file:
             self.stopwords = [line.rstrip('\n') for line in temp_file]
-
+            self.stopwords = set(self.stopwords)
 
         valid_pos_set = set(valid_pos)
 
@@ -119,11 +122,6 @@ class Normalizer(object):
         else:
             self.valid_pos_set = None
 
-        self.stopwords = nltk.corpus.stopwords.words('english')
-        extra_stopwords = ["'s", "n't", "'m"]
-        self.stopwords = self.stopwords + extra_stopwords
-        self.stopwords = set(self.stopwords)
-
     def process(self, document):
         if self.strip_html_tags:
             document = strip_tags(document)
@@ -133,6 +131,9 @@ class Normalizer(object):
 
         document = tokenize_and_stem(document, stemmer=self.stemmer)
 
+        if self.lower_case:
+            document = [word.lower() for word in document]
+            
         document = remove_stopwords(document, self.stopwords)
 
         document = [word for word in document if len(word) > self.min_word_length]

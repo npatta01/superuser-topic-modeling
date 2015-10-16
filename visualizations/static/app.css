@@ -132,3 +132,10 @@ span.name {
     width: 80%;
     height: 400px;
 }
+
+
+.topicsContainer md-whiteframe {
+    background: #fff;
+    margin: 30px;
+    height: 100px;
+}

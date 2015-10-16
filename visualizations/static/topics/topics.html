@@ -1,18 +1,42 @@
-<div class="container">
+<div flex layout="column"  offset="20"     layout-align="center center">
+    <md-content >
+        <div flex>
+            <h1> Topics</h1>
 
-    <div class="row">
-        <h1> Topics:</h1>
-    </div>
-    <div class="row">
-        <div ng-repeat="topic in topics track by topic.topic_id">
-
-            <h3>{{topic.topic_id}}:
-                <a ng-href="#/topic/{{topic.topic_id}}">{{topic.name}}</a>
+            <div layout="row" layout-padding layout-wrap layout-fill style="padding-bottom: 32px;" ng-cloak class="topicsContainer">
 
 
-            </h3>
+                <md-whiteframe class="md-whiteframe-1dp" flex="25" layout="column" layout-align="center center"  ng-repeat="topic in topics track by topic.topic_id" ng-mouseover="hoverIn(topic)" ng-mouseleave="hoverOut(topic)">
+
+                    <div ng-hide="topic.active">
+
+                        <div ng-repeat="pair in topic.counts | orderBy:weight | limitTo:4">{{pair.text}}</div>
+
+
+
+                    </div>
+
+                    <div ng-show="topic.active" >
+                        <a ng-href="#/topic/{{topic.topic_id}}">{{topic.name}}</a>
+
+                    </div>
+
+
+
+                </md-whiteframe>
+            </div>
+
         </div>
-    </div>
 
 
+
+
+
+
+</md-content>
 </div>
+
+
+
+
+

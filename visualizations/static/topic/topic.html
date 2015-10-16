@@ -1,71 +1,53 @@
-<div class="container">
-
-    <div class="row">
-
-        <form novalidate ng-model="request" novalidate="novalidate" class="form-inline" role="form">
-
-
-            <div class="form-group" show-errors>
-
-                <label class="control-label">Topic</label>
-
-                <div>
-
-                    <select class="form-control" ng-model="topic"
-                            ng-options="t.topic_id for t in topics track by t.topic_id" ng-change="updatePage()"></select>
-
-                </div>
+<div flex layout="column" offset="20" layout-align="center center">
+    <div layout="row" flex="20">
+        <md-input-container flex>
+            <label>Topic</label>
+            <md-select ng-model="topic">
+                <md-option ng-repeat="t in topics track by t.topic_id" value="{{topic_id}}"
+                           ng-change="updatePage()">
+                    {{t.topic_id}}
+                </md-option>
+            </md-select>
+        </md-input-container>
 
 
-            </div>
-            <div class="form-group" show-errors>
+        <md-input-container>
+            <label>Num Words</label>
+            <input required type="number" step="any" ng-model="numberOfWords" min="5"
+                   max="20"/>
 
-                <label class="control-label">Num Words</label>
+        </md-input-container>
 
-                <div>
-
-                    <input type="number" class="form-control" ng-model="numberOfWords" ng-change="updatePage()"
-                            >
-
-
-                </div>
-
-
-            </div>
-
-
-        </form>
 
     </div>
 
-
-    <div ng-show="topic">
-
-        <div class="row">
-
+    <div layout="row" flex ng-show="topic">
+        <div>
             <h2>Topic# {{topic.topic_id}} {{topic.name}} </h2>
-
         </div>
 
-
-        <div class="row">
+        <div>
             <p class="lead">#Todo: Insert hopefully Awesome description</p>
-
         </div>
 
-        <div class="row">
-            <div class="col-md-6">
+        <div>
+            <div>
                 <jqcloud words="topic.counts" id="cloud-dynamic" auto-resize="true" steps="7"
                          font-size="{from:0.09, to:0.04}"></jqcloud>
             </div>
 
-            <div class="col-md-6">
+            <div>
                 <nvd3 options="options" data="data"></nvd3>
 
             </div>
 
         </div>
-
-
     </div>
+
+
 </div>
+
+
+
+
+
