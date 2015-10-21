@@ -1,5 +1,6 @@
-__author__ = 'npatta01'
+from __future__ import print_function
 
+import sys
 import gensim
 import helper
 import operator
@@ -40,6 +41,7 @@ class Model(object):
         self.lda = gensim.models.LdaMulticore.load(model_path)
 
         self.dictionary = gensim.corpora.Dictionary.load(dictionary_path)
+        self.num_topics = self.lda.num_topics
 
     def topics(self, num_words=10):
         num_topics = self.lda.num_topics
@@ -56,3 +58,42 @@ class Model(object):
         topic_strength = self.lda[doc_bow]
 
         return sorted(topic_strength, key=operator.itemgetter(1), reverse=True)
+
+    def calculate_strongest_docs(self, corpora, max_docs=20):
+        topic_strengths = []
+        for i in range(self.num_topics):
+            topic_strengths.append([])
+        items_seen = 0
+        for post in corpora:
+            content = post.full_content
+            id = post.id
+
+            top_topics = self.topics_for_doc(content)
+            if len(top_topics) > 0:
+                top_topic = top_topics[0]
+                topic_id, topic_strength = top_topic
+
+                doc = {}
+                doc['id'] = id
+                doc['title'] = post.title
+                doc['strength'] = topic_strength
+                doc['question'] = post.question
+                doc['answers'] = post.answers
+
+                topic_strengths[topic_id].append(doc)
+
+            items_seen += 1
+            if items_seen % 1000 == 0:
+                print("\r--- Completed {:,}".format(items_seen), end=' ')
+                sys.stdout.flush()
+
+        for i in range(len(topic_strengths)):
+            doc_strengths = topic_strengths[i]
+            # sort the doc by strength
+            doc_strengths = sorted(doc_strengths, key=lambda x: x['strength'], reverse=True)
+
+            doc_strengths = doc_strengths[:max_docs]
+            topic_strengths[i] = {'topic':i ,'docs':doc_strengths}
+
+        print()
+        return topic_strengths

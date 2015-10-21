@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 import nltk
 from nltk.stem.snowball import SnowballStemmer
 from textblob import TextBlob
+import json
 
 
 def get_xml_file_as_df(xml_file_path, max_num_children=None):
@@ -89,6 +90,11 @@ def filter_parts_of_speech(sentence, part_of_speech_to_keep=None):
         return result
 
 
+def save_dict_to_file(value_dict, path):
+    with open(path, 'w') as fp:
+        json.dump(value_dict, fp)
+
+
 class Normalizer(object):
     def __init__(self, stem=False, stop_words=None, strip_html_tags=False,
                  filter_parts_of_speech=False, min_word_length=1
@@ -133,7 +139,7 @@ class Normalizer(object):
 
         if self.lower_case:
             document = [word.lower() for word in document]
-            
+
         document = remove_stopwords(document, self.stopwords)
 
         document = [word for word in document if len(word) > self.min_word_length]
@@ -175,3 +181,20 @@ class SuperUserDatabase(object):
                     , id=row[5]
                 )
                 yield p
+
+    def get_post_with_id(self, id):
+        with sqlite3.connect(self.db) as conn:
+            cursor = conn.cursor()
+
+            row = \
+            list(cursor.execute("SELECT Question,Answers,Title, Tags,CreationDate,Id FROM posts WHERE Id=?", (id,)))[0]
+
+            p = Post(
+                question=row[0]
+                , answers=row[1]
+                , title=row[2]
+                , tags=row[3]
+                , creation_date=row[4]
+                , id=row[5]
+            )
+            return p

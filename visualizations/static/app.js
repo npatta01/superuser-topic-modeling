@@ -1,6 +1,28 @@
 /// <reference path="references.ts" />
 var topic_app;
 (function (topic_app_1) {
+    var SuperUserService = (function () {
+        function SuperUserService($http, $q) {
+            this.$http = $http;
+            this.$q = $q;
+        }
+        SuperUserService.prototype.getUrl = function (post_id) {
+            return "http://superuser.com/questions/" + post_id;
+        };
+        SuperUserService.prototype.getRandomPost = function () {
+            var deferred = this.$q.defer();
+            this.$http
+                .get('/api/sample_doc')
+                .then(function (result) {
+                var topic = result.data;
+                deferred.resolve(topic);
+            });
+            return deferred.promise;
+        };
+        SuperUserService.$inject = ['$http', '$q'];
+        return SuperUserService;
+    })();
+    topic_app_1.SuperUserService = SuperUserService;
     var NavCtrl = (function () {
         function NavCtrl($mdSidenav, $location) {
             this.$mdSidenav = $mdSidenav;
@@ -9,6 +31,8 @@ var topic_app;
             this.sections = [
                 { path: '/topics', title: 'Topics', tab_name: 'tab_topics' },
                 { path: '/topic', title: 'Topic', tab_name: 'tab_topic' },
+                { path: '/topic_pca', title: 'Topic Pca', tab_name: 'tab_pca' },
+                { path: '/analyze', title: 'Analyze', tab_name: 'tab_analyze' },
                 { path: '/about', title: 'About', tab_name: 'tab_about' }
             ];
         }
@@ -33,6 +57,8 @@ var topic_app;
         'ngAnimate',
         'topic_app.topics',
         'topic_app.topic',
+        'topic_app.pyldaviz',
+        'topic_app.analyze',
         'topic_app.about'
     ]);
     topic_app_1.topic_app.config(['$routeProvider', '$mdThemingProvider', '$mdIconProvider', function ($routeProvider, $mdThemingProvider, $mdIconProvider) {
@@ -41,5 +67,6 @@ var topic_app;
             // $routeProvider.otherwise({redirectTo: '/topics'});
         }]);
     topic_app_1.topic_app.controller('NavCtrl', NavCtrl);
+    topic_app_1.topic_app.service('SuperUserService', SuperUserService);
 })(topic_app || (topic_app = {}));
 //# sourceMappingURL=app.js.map

@@ -1,36 +1,45 @@
+import os
+
 import flask
 import gensim
-from flask import request, Response
-import os
-from drivers import BaseDriver
-from models import Topic
-from predict import Predict
 
+from flask import request, Response
+
+from server.drivers import BaseDriver, CachedDriver
+from server.models import Topic
+from server.predict import Predict
 from analysis import helper
 
 app = flask.Flask(__name__)
 
-num_topics = 20
-model_serialized_path = 'visualizations/lda_topic_%s.lda' % (num_topics)
+num_topics = 10
+model_serialized_path = 'visualizations/artifacts/lda_topic_%s.lda' % (num_topics)
+dict_path = 'visualizations/artifacts/lda.dict'
+topics_count_path = 'visualizations/artifacts/topics_word_count.json'
+doc_strength_path = 'visualizations/artifacts/doc_strength.json'
+label_path = "visualizations/artifacts/labels.json"
+sample_questions_path = "visualizations/artifacts/sample_docs.json"
 
 options = {
-    "stem":False
-    ,"stop_words":"data/stopwords.txt"
-    ,"strip_html_tags":True
-    ,"filter_parts_of_speech":True
-    ,"min_word_length":1
-    ,"lower_case":True
+    "stem": False
+    , "stop_words": "data/stopwords.txt"
+    , "strip_html_tags": True
+    , "filter_parts_of_speech": True
+    , "min_word_length": 1
+    , "lower_case": True
 
 }
 
 ag_preprocesser = helper.Normalizer(**options)
 
-lda_dict=gensim.corpora.dictionary.Dictionary.load('visualizations/lda.dict')
+lda_dict = gensim.corpora.dictionary.Dictionary.load(dict_path)
 
-driver = BaseDriver(model_serialized_path)
+# driver = BaseDriver(model_serialized_path)
+driver = CachedDriver(topics_count_path, doc_strength_path, label_path, sample_questions_path)
 
 lda_model = gensim.models.LdaMulticore.load(model_serialized_path)
-predictor= Predict(lda_dict,ag_preprocesser,lda_model)
+predictor = Predict(lda_dict, ag_preprocesser, lda_model)
+
 
 @app.route('/api')
 def hello_world():
@@ -56,7 +65,7 @@ def topic():
     topic_id = int(request.args.get('topic_id', 0))
     words_in_topic = int(request.args.get('words_in_topic', 10))
 
-    topic_detail = driver.get_topic_details(topic_id, words_in_topic)
+    topic_detail = driver.get_topic_details(topic_id, num_words=words_in_topic)
 
     # data = jsonpickle.dumps(topic_detail)
     # resp = Response(data, mimetype='application/json')
@@ -65,23 +74,40 @@ def topic():
     return flask.jsonify(res)
 
 
-@app.route('/api/jsonpickle')
-def jsonpcikle_topic():
-    all_topics = driver.get_all_topics()
-    # return json_response(to_JSON(all_topics))
-    # return Response(json.dumps(all_topics), mimetype='application/json')
+@app.route('/api/topic_docs')
+def topic_docs():
+    topic_id = int(request.args.get('topic_id', 0))
+    docs = driver.get_strongest_docs(topic_id)
+    return flask.jsonify(docs)
 
-    topic = Topic(id=5, word_counts=None)
 
-    resp = Response(topic, mimetype='application/json')
+@app.route('/api/topic_descriptions')
+def topic_descriptions():
+    labels = driver.get_topic_labels()
+    return flask.jsonify({'res': labels})
+
+
+@app.route('/api/analyze')
+def analyze_topics():
+    content = request.get_json()['content']
+    topic = predictor.predict(content)
+
+    res = {"res": topic}
+    return flask.jsonify(res)
     # return flask.jsonify(data)
-    return resp
 
+
+@app.route('/api/sample_doc')
+def sample_doc():
+    data = driver.get_sample_post()
+
+    return flask.jsonify(data)
+    # return flask.jsonify(data)
 
 
 @app.route('/libs/<path:path>')
 def libs(path):
-    path=os.path.join('libs',path)
+    path = os.path.join('libs', path)
     return app.send_static_file(path)
 
 
@@ -90,12 +116,10 @@ def static_file(path):
     return app.send_static_file(path)
 
 
-
 @app.route('/')
 def index():
     return app.send_static_file('index.html')
 
 
-
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')

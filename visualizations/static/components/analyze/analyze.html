@@ -1,0 +1,43 @@
+<div flex layout="column" offset="20">
+    <md-content>
+        <p>
+            Enter the question id of the super user forum page.
+            The question id can be found in the url http://superuser.com/questions/question_id/
+        </p>
+        <p>
+            Or click Random to have a question preselected
+
+        </p>
+
+        <div layout="column">
+
+
+            <md-input-container flex>
+                <label>Question Id</label>
+                <input ng-model="vm.question_id" ng-model-options="{ updateOn: 'default blur', debounce: { 'default': 500, 'blur': 0 } }" ng-change="vm.fetchQuestion()">
+                <md-button class="md-raised md-primary">Random Question</md-button>
+            </md-input-container>
+
+
+            <md-input-container flex>
+                <label>Content</label>
+                <textarea ng-model="vm.content" columns="1" md-maxlength="10000"></textarea>
+            </md-input-container>
+
+
+            <md-button class="md-raised md-primary" ng-click="vm.getTopics()">Analyze</md-button>
+        </div>
+
+
+        <div layout="column">
+            {{vm.result}}
+        </div>
+
+    </md-content>
+
+</div>
+
+
+
+
+

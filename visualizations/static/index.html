@@ -65,7 +65,7 @@
 <body layout="column" ng-controller="NavCtrl as nc">
 
 <md-toolbar layout="row">
-    <md-button class="menu" hide-gt-sm ng-click="toggleMenu()" aria-label="Show User List">
+    <md-button class="menu" hide-gt-sm ng-click="nc.toggleMenu()" aria-label="Show User List">
         <md-icon md-svg-icon="menu"></md-icon>
     </md-button>
     <h1>Super User Topic Modelling</h1>
@@ -119,14 +119,17 @@
 <script src="libs/marked/lib/marked.js"></script>
 <script src="libs/angular-marked/angular-marked.js"></script>
 <script src="libs/angular-material/angular-material.js"></script>
+<script src="libs/angular-location-update/angular-location-update.js"></script>
 <!-- endbower -->
 
 
-<script src="/static/topics/topics.js"></script>
-<script src="/static/topic/topic.js"></script>
-<script src="/static/about/about.js"></script>
-<script src="/static/main/models.js"></script>
+<script src="/static/components/topics/topics.js"></script>
+<script src="/static/components/topic/topic.js"></script>
+<script src="/static/components/analyze/analyze.js"></script>
 
+<script src="/static/components/about/about.js"></script>
+<script src="/static/components/main/models.js"></script>
+<script src="/static/components/pyldaviz/pyldaviz.js"></script>
 <script src="/static/app.js"></script>
 
 </body>
