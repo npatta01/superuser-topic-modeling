@@ -28,5 +28,8 @@
     "angular-marked": "~0.0.21",
     "angular-material": "~0.11.2",
     "angular-location-update": "*"
+  },
+  "resolutions": {
+    "angular": "1.4.7"
   }
 }

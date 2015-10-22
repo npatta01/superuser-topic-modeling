@@ -4,24 +4,28 @@ module topic_app {
 
 
     export class AnalyzeCtrl {
-        public static $inject = ['$routeParams', '$http', 'SuperUserService'];
+        public static $inject = ['$routeParams', '$http', 'SuperUserService', 'TopicService'];
 
 
         private question_id:number;
         public content:string;
         public result:string;
 
+        public strongestTopics:Array<any>;
+
         constructor(private $routeParams:any
             , private $http:angular.IHttpService
-            , private SuperUserService:SuperUserService) {
+            , private SuperUserService:SuperUserService
+            , private TopicService:TopicService) {
 
 
         }
 
 
-        public fetchQuestion() {
+        public sampleQuestion() {
+            this.strongestTopics = null;
             this.$http.get("/api/sample_doc").then((result:any)=> {
-                var data:Post = result.data.res;
+                var data:Post = result.data;
                 this.question_id = data.id;
                 this.content = data.title + " \n\n" + data.body
             });
@@ -29,10 +33,27 @@ module topic_app {
 
         public getTopics() {
 
-
+            this.strongestTopics = null;
             this.$http.post('/api/analyze', {content: this.content}).then((result:any)=> {
-                this.result = result.data.res;
+                this.strongestTopics = result.data.res;
+
             });
+        }
+
+        public questionIdChanged() {
+
+            this.content = "";
+
+            if (angular.isDefined(this.question_id)) {
+                this.SuperUserService.getSpecificPost(this.question_id).then((result:Post)=> {
+                    console.log(result);
+                    this.question_id = result.id;
+                    this.content = result.body;
+
+                });
+            }
+
+
         }
 
 

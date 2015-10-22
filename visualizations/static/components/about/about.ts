@@ -34,7 +34,7 @@ module topic_app {
     }]);
 
 
-    topic_app_topic.controller('AboutCtrl', AboutCtrl);
+    topic_app_about.controller('AboutCtrl', AboutCtrl);
 
 
 }

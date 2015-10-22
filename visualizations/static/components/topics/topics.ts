@@ -18,7 +18,7 @@ module topic_app {
 
         public constructor(private $http:angular.IHttpService, private $q:angular.IQService) {
 
-
+            this.getAllTopics();
         }
 
         private allTopicsPromise() {
@@ -53,7 +53,7 @@ module topic_app {
                     allTopicDescriptions: this.allTopicDescriptionsPromise()
                 });
 
-                combinedPromise.then(function (responses:any) {
+                combinedPromise.then((responses:any)=> {
                     this.topics = responses.allTopics.data.res;
                     this.topic_descriptions = responses.allTopicDescriptions.data.res;
 
@@ -82,8 +82,15 @@ module topic_app {
         public getTopicDetail(topic_id:number, words_in_topic:number) {
 
             var deferred = this.$q.defer();
-            this.fetchedPromise.then((result:any)=> {
 
+
+            this.fetchedPromise.then((result:any)=> {
+                if (!this.topics) {
+                    this.topics = result;
+
+                }
+
+                var topics = result;
 
                 this.$http.get('/api/topic', {
                     params: {
@@ -92,7 +99,7 @@ module topic_app {
                     }
                 }).success((result:any)=> {
                     var topic:Topic = <Topic>result.res;
-                    var t = this.topics[topic_id];
+                    var t = topics[topic_id];
                     topic.name = t.name;
                     topic.description = t.description;
 
@@ -117,6 +124,28 @@ module topic_app {
                 });
         }
 
+
+        public getTopicName(topic_id:number) {
+
+            var deferred = this.$q.defer();
+
+
+            this.fetchedPromise.then((result:any)=> {
+
+                if (!angular.isDefined(this.topics)){
+                    this.topics = result;
+                }
+
+                var name = result[topic_id].name;
+
+                deferred.resolve(name);
+
+
+            });
+            return deferred.promise;
+
+
+        }
 
         public getTopicDescription(topic_id:number) {
             var deferred = this.$q.defer();
@@ -183,4 +212,3 @@ module topic_app {
 
 
 
-  

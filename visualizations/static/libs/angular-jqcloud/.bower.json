@@ -39,6 +39,5 @@
   },
   "_source": "git://github.com/mistic100/angular-jqcloud.git",
   "_target": "~1.0.2",
-  "_originalSource": "angular-jqcloud",
-  "_direct": true
+  "_originalSource": "angular-jqcloud"
 }

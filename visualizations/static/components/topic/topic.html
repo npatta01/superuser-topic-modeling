@@ -1,60 +1,62 @@
-<div flex layout="column" offset="20">
-    <md-content>
-    <div layout="row" flex="20">
+<div flex layout="column">
+    <md-content >
+        <div layout="row">
 
-        <md-input-container>
-            <label>Topic</label>
-            <md-select ng-model="vm.selectedTopic" md-on-close="vm.topicChanged()">
-                <md-option ng-repeat="topic in vm.topics" value="{{topic.id}}">
-                    {{topic.id+1}}
-                </md-option>
-            </md-select>
-        </md-input-container>
-
-
-        <md-input-container>
-            <label>Num Words</label>
-            <input required type="number" step="any" ng-model="vm.numberOfWords" min="5"
-                   max="20" ng-change="vm.updatePage()"/>
-
-        </md-input-container>
+            <md-input-container>
+                <label>Topic</label>
+                <md-select ng-model="vm.selectedTopic" md-on-close="vm.topicChanged()">
+                    <md-option ng-repeat="topic in vm.topics" value="{{topic.id}}">
+                        {{topic.id+1}}
+                    </md-option>
+                </md-select>
+            </md-input-container>
 
 
-    </div>
+            <md-input-container>
+                <label>Num Words</label>
+                <input required type="number" step="any" ng-model="vm.numberOfWords" min="5"
+                       max="20" ng-change="vm.updatePage()"/>
 
-    <div layout="column" flex="10" ng-show="vm.topic">
-        <div>
-            <h2>Topic# {{vm.topic.id+1}} {{vm.topic.name}} </h2>
-        </div>
+            </md-input-container>
 
-        <div>
-            <p class="lead">{{vm.topic.description}}</p>
-        </div>
-    </div>
-
-    <div layout="row" flex="40" ng-if="vm.data_ready">
-
-        <div flex="50">
-            <jqcloud words="vm.topic.counts" id="cloud-dynamic" auto-resize="true" steps="7"
-                     font-size="{from:0.09, to:0.04}"></jqcloud>
-        </div>
-
-        <div flex="50">
-            <nvd3 options="vm.chart_options" data="vm.chart_data"></nvd3>
 
         </div>
 
+        <div layout="column" ng-show="vm.topic">
+            <div>
+                <h2>Topic# {{vm.topic.id+1}} {{vm.topic.name}} </h2>
+            </div>
 
-    </div>
+            <div>
+                <p class="lead">{{vm.topic.description}}</p>
+            </div>
+        </div>
+
+        <div layout="column" ng-if="vm.data_ready">
+
+            <div flex="50">
+                <jqcloud words="vm.topic.counts" id="cloud-dynamic" auto-resize="true" steps="10"
+                         font-size="{from:0.09, to:0.04}"></jqcloud>
+            </div>
+
+            <div flex="50">
+                <nvd3 options="vm.chart_options" data="vm.chart_data"></nvd3>
+
+            </div>
 
 
-    <div layout="column" flex="30">
-        <div flex="20">
-            <h2> Top Docs</h2>
+
 
         </div>
 
-        <div flex="80">
+
+        <div layout="column">
+            <div>
+                <h2> Top Docs</h2>
+
+            </div>
+
+            <div>
                 <md-list>
                     <md-list-item class="md-1-line md-long-text" ng-repeat="item in vm.strongest_docs | limitTo: 20">
                         <div class="md-list-item-text" layout="column">
@@ -64,10 +66,10 @@
                     </md-list-item>
                 </md-list>
 
+            </div>
+
+
         </div>
-
-
-    </div>
     </md-content>
 
 </div>

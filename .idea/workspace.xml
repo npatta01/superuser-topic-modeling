@@ -1,11 +1,541 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb14e41a-69a5-4c75-a66f-0be0d4e6ce08" name="Default" comment="">
+    <list default="true" id="eb14e41a-69a5-4c75-a66f-0be0d4e6ce08" name="Default" comment="analyze ou">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/app.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/about/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/about/about.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/main/models.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/main/models.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/topic/topic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/topic/topic.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/topics/topics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/components/topics/topics.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/references.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visualizations/static/references.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.min.js.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-jqcloud/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-jqcloud/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-loading-bar/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-loading-bar/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-location-update/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-location-update/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-nvd3/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-nvd3/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-route/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-route/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/bootstrap/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/fontawesome/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/fontawesome/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/jquery/.bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/CHANGELOG.md" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/README.md" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/about/about.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/about/about.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" afterPath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/angular-animate.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/angular-animate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/angular-aria.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/angular-aria.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/angular-aria.min.js.map" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/angular-aria.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/angular-aria.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/angular-aria.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/angular-marked.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/angular-marked.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/css/angular-material-layouts.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/css/angular-material-layouts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.scss" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/angular-material.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-route/angular-route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-route/angular-route.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-route/angular-route.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/app.css" afterPath="$PROJECT_DIR$/visualizations/static/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/app.ts" afterPath="$PROJECT_DIR$/visualizations/static/app.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/autocomplete/autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/backdrop/backdrop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/backdrop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bottomSheet.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/autocomplete/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/backdrop/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/bottomSheet/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabActions/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabActions/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabTrigger/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabTrigger/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/swipe/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/swipe/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-route/bower.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-route/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/button/button.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/button/button.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/card/card.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/card/card.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/checkbox/checkbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/checkbox/checkbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/chips/chips.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/chips/chips.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/content/content.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/content/content.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/core/core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/core/core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/datepicker/datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/datepicker/datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/dialog/dialog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/dialog/dialog.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/divider/divider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/divider/divider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/server/drivers.py" afterPath="$PROJECT_DIR$/visualizations/server/drivers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ds4_fletcher.iml" afterPath="$PROJECT_DIR$/ds4_fletcher.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topics/topics.js.map" afterPath="$PROJECT_DIR$/visualizations/static/components/topics/topics.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topics/topics.js" afterPath="$PROJECT_DIR$/visualizations/static/components/topics/topics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabActions/fabActions.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabActions/fabActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabActions/fabActions.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabActions/fabActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabActions/fabActions.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabActions/fabActions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabActions/fabActions.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabActions/fabActions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabToolbar/fabToolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabTrigger/fabTrigger.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabTrigger/fabTrigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabTrigger/fabTrigger.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabTrigger/fabTrigger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabTrigger/fabTrigger.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/fabTrigger/fabTrigger.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/demos/toolbar/demoBasicUsage/img/icons/favorite.svg" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/demos/toolbar/demoBasicUsage/img/icons/favorite.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/gridList/gridList.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/gridList/gridList.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/gruntfile.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/icon/icon.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/icon/icon.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/index.html" afterPath="$PROJECT_DIR$/visualizations/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/input/input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/input/input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/karma.conf.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/lda_app.py" afterPath="$PROJECT_DIR$/visualizations/lda_app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/list/list.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/list/list.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/marked/bin/marked" afterPath="$PROJECT_DIR$/visualizations/static/libs/marked/bin/marked" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menu/menu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menu/menu.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/demos/toolbar/demoBasicUsage/img/icons/menu.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/menuBar/menuBar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/menuBar/menuBar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/demos/toolbar/demoBasicUsage/img/icons/more_vert.svg" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/demos/toolbar/demoBasicUsage/img/icons/more_vert.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular/package.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/package.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-animate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/package.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-aria/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/package.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/package.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-route/package.json" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-route/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/server/predict.py" afterPath="$PROJECT_DIR$/visualizations/server/predict.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressCircular/progressCircular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressCircular/progressCircular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/progressLinear/progressLinear.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/progressLinear/progressLinear.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/radioButton/radioButton.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/radioButton/radioButton.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/select/select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/select/select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sidenav/sidenav.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sidenav/sidenav.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/slider/slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/slider/slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/sticky/sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/sticky/sticky.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/subheader/subheader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/subheader/subheader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/swipe/swipe.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/swipe/swipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/swipe/swipe.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/swipe/swipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/swipe/swipe.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/swipe/swipe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/swipe/swipe.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/swipe/swipe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/switch/switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/switch/switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tabs/tabs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tabs/tabs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toast/toast.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toast/toast.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/todo.md" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-marked/todo.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/toolbar/toolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/toolbar/toolbar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip-default-theme.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip-default-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/tooltip/tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/tooltip/tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topic/topic.html" afterPath="$PROJECT_DIR$/visualizations/static/components/topic/topic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topic/topic.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/topic/topic.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topics/topics.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/topics/topics.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap-tpls.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap-tpls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap-tpls.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap-tpls.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-bootstrap/ui-bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.min.css" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/closure/whiteframe/whiteframe.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.min.js" afterPath="$PROJECT_DIR$/visualizations/static/libs/angular-material/modules/js/whiteframe/whiteframe.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ds4_fletcher.iws" />
@@ -22,7 +552,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ds4_fletcher$app.coverage" NAME="app Coverage Results" MODIFIED="1440189794323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualizations" />
-    <SUITE FILE_PATH="coverage/ds4_fletcher$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1445309137850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ds4_fletcher$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1445484240868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,16 +563,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="topics.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="analyze.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2580647">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analyze.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visualizations/static/app.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.730659">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+              <folding>
+                <element signature="n#NavCtrl#0;n#topic_app#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topics.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6198198">
-              <caret line="77" column="31" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!block;n#allTopicsPromise#0;n#TopicService#0;n#topic_app#0" expanded="false" />
-                <element signature="e#1072#1134#0" expanded="false" />
-                <element signature="n#!!block;n#getStrongestDocsForTopic#0;n#TopicService#0;n#topic_app#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="1.8412699">
+              <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +625,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/visualizations/static/svg/menu.svg" />
         <option value="$PROJECT_DIR$/visualizations/static/app.js" />
         <option value="$PROJECT_DIR$/visualizations/static/index2.html" />
         <option value="$PROJECT_DIR$/analysis/corpora.py" />
@@ -95,29 +652,30 @@
         <option value="$PROJECT_DIR$/visualizations/static/components/pyldavis/pyldaviz.ts" />
         <option value="$PROJECT_DIR$/visualizations/static/components/about/about.js" />
         <option value="$PROJECT_DIR$/visualizations/static/references.ts" />
-        <option value="$PROJECT_DIR$/visualizations/static/components/about/about.ts" />
         <option value="$PROJECT_DIR$/visualizations/static/components/about/about.html" />
-        <option value="$PROJECT_DIR$/visualizations/static/app.css" />
         <option value="$PROJECT_DIR$/analysis/helper.py" />
         <option value="$PROJECT_DIR$/analysis/model.py" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.html" />
-        <option value="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.ts" />
         <option value="$PROJECT_DIR$/visualizations/artifacts/labels.json" />
         <option value="$PROJECT_DIR$/analysis/model_exporter.py" />
         <option value="$PROJECT_DIR$/visualizations/static/components/topics/topics.html" />
         <option value="$PROJECT_DIR$/visualizations/static/components/about/about.md" />
         <option value="$PROJECT_DIR$/visualizations/artifacts/sample_docs.json" />
-        <option value="$PROJECT_DIR$/visualizations/server/drivers.py" />
-        <option value="$PROJECT_DIR$/visualizations/static/index.html" />
-        <option value="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" />
         <option value="$PROJECT_DIR$/visualizations/static/components/main/models.ts" />
-        <option value="$PROJECT_DIR$/visualizations/static/components/topic/topic.html" />
-        <option value="$PROJECT_DIR$/visualizations/lda_app.py" />
-        <option value="$PROJECT_DIR$/visualizations/static/app.ts" />
         <option value="$PROJECT_DIR$/visualizations/static/components/topic/topic.ts" />
-        <option value="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts" />
+        <option value="$PROJECT_DIR$/visualizations/static/index.html" />
+        <option value="$PROJECT_DIR$/visualizations/static/components/about/about.ts" />
+        <option value="$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.ts" />
         <option value="$PROJECT_DIR$/visualizations/static/components/topics/topics.ts" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/visualizations/server/drivers.py" />
+        <option value="$PROJECT_DIR$/visualizations/lda_app.py" />
+        <option value="$PROJECT_DIR$/visualizations/server/predict.py" />
+        <option value="$PROJECT_DIR$/visualizations/static/app.css" />
+        <option value="$PROJECT_DIR$/visualizations/static/components/topic/topic.html" />
+        <option value="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" />
+        <option value="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts" />
+        <option value="$PROJECT_DIR$/visualizations/static/app.ts" />
       </list>
     </option>
   </component>
@@ -174,8 +732,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1038" />
+    <option name="x" value="1920" />
+    <option name="y" value="263" />
+    <option name="width" value="1024" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -200,7 +760,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,7 +774,113 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="metis_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ds4_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visualizations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds4_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visualizations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds4_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visualizations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds4_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visualizations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds4_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metis_fletcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visualizations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analyze" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,19 +888,20 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sql" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/pyspark/bin/python" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ipnb.configuration.IpnbConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.buildTools.grunt.node_interpreter" value="$USER_HOME$/.nvm/versions/node/v4.1.1/bin/node" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/.nvm/versions/node/v4.1.1/lib/node_modules/grunt-cli" />
@@ -302,12 +968,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runserver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -598,19 +1258,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
       <pass-parent-env-vars value="true" />
       <force value="false" />
@@ -803,6 +1450,16 @@
       <workItem from="1445307496200" duration="2000" />
       <workItem from="1445307682627" duration="5000" />
       <workItem from="1445308083145" duration="1308000" />
+      <workItem from="1445432221685" duration="22000" />
+      <workItem from="1445432752183" duration="12000" />
+      <workItem from="1445433539568" duration="49000" />
+      <workItem from="1445434696790" duration="7550000" />
+      <workItem from="1445455456785" duration="4151000" />
+      <workItem from="1445461574381" duration="626000" />
+      <workItem from="1445471339087" duration="27000" />
+      <workItem from="1445471395594" duration="322000" />
+      <workItem from="1445472066550" duration="551000" />
+      <workItem from="1445474179875" duration="10334000" />
     </task>
     <task id="LOCAL-00001" summary="moves files around&#10;created a sqlite corpora iterator">
       <created>1444174004812</created>
@@ -832,10 +1489,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143446000" />
+    <option name="totallyTimeSpent" value="167090000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
+    <frame x="1920" y="263" width="1024" height="768" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -844,11 +1501,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3029001" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1882169" sideWeight="0.68567026" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1882169" sideWeight="0.31432974" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28962818" sideWeight="0.60722345" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28962818" sideWeight="0.39277652" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -863,7 +1520,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -892,11 +1549,6 @@
           <line>22</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/visualizations/static/components/topics/topics.ts</url>
-          <line>121</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="NONE" type="python-exception">
@@ -905,7 +1557,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -914,15 +1566,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/visualizations/static/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="n#NavCtrl#0;n#topic_app#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="n#NavCtrl#0;n#topic_app#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#allTopicsPromise#0;n#TopicService#0;n#topic_app#0" expanded="false" />
-            <element signature="e#1072#1134#0" expanded="false" />
-            <element signature="n#!!block;n#getStrongestDocsForTopic#0;n#TopicService#0;n#topic_app#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,38 +1643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/build/_bower.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/build/_bower.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/libs/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3319239">
           <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/pyspark/local/lib/python2.7/site-packages/flask/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="809" column="8" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1001,15 +1655,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/makedb.py">
@@ -1040,27 +1685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/main/models.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/components/about/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11811024">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/about/about.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3312102">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1092,52 +1720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/artifacts/doc_strength.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="32" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/pyldaviz/lda_viz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.290323">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1155,61 +1741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="15" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/components/about/about.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.328341">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/server/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/artifacts/labels.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7939914">
-          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -1220,41 +1755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/server/drivers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/lda_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="27" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topic/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5714285">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.83871">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/components/main/models.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.096774">
@@ -1262,42 +1762,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/typings/angularjs/angular.d.ts">
+    <entry file="file://$PROJECT_DIR$/runserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2580647">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topic/topic.ts">
+    <entry file="file://$PROJECT_DIR$/analysis/helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.746032">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.3327645">
+          <caret line="171" column="18" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.451612">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="92" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/pyldaviz/lda_viz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.375">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/pyldaviz/pyldaviz.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/about/about.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.193548">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topic/topic.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26984128">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/pyspark/local/lib/python2.7/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="821" column="63" selection-start-line="820" selection-start-column="15" selection-end-line="821" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/artifacts/labels.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/server/drivers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/server/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/lda_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topic/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#md-content#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="66" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/typings/angularjs/angular.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35111877">
+          <caret line="1262" column="8" selection-start-line="1262" selection-start-column="8" selection-end-line="1262" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2580647">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6198198">
-          <caret line="77" column="31" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="31" />
+        <state vertical-scroll-proportion="1.8412699">
+          <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualizations/static/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.730659">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
           <folding>
-            <element signature="n#!!block;n#allTopicsPromise#0;n#TopicService#0;n#topic_app#0" expanded="false" />
-            <element signature="e#1072#1134#0" expanded="false" />
-            <element signature="n#!!block;n#getStrongestDocsForTopic#0;n#TopicService#0;n#topic_app#0" expanded="false" />
+            <element signature="n#NavCtrl#0;n#topic_app#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1360,6 +2011,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1367,6 +2019,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>metis_fletcher node_modules</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

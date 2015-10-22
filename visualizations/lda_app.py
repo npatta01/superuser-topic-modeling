@@ -87,12 +87,15 @@ def topic_descriptions():
     return flask.jsonify({'res': labels})
 
 
-@app.route('/api/analyze')
+@app.route('/api/analyze', methods=['POST'])
 def analyze_topics():
     content = request.get_json()['content']
-    topic = predictor.predict(content)
+    topics = predictor.predict(content)
 
-    res = {"res": topic}
+    for topic in topics:
+        topic['name'] = driver.get_topic_name(topic['id'])
+
+    res = {"res": topics}
     return flask.jsonify(res)
     # return flask.jsonify(data)
 
@@ -113,7 +116,9 @@ def libs(path):
 
 @app.route('/<path:path>')
 def static_file(path):
-    return app.send_static_file(path)
+    return flask.send_from_directory('static', path,
+                                     cache_timeout=-10)
+    # return app.send_static_file(path)
 
 
 @app.route('/')

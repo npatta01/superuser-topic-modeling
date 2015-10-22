@@ -76,3 +76,6 @@ class CachedDriver:
 
     def get_sample_post(self):
         return random.choice(self.sample_docs)
+
+    def get_topic_name(self,topic_id):
+        return self.topic_labels[topic_id]['name']

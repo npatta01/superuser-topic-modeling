@@ -48,7 +48,7 @@ module topic_app {
             this.topic = this.topics[this.selectedTopic];
 
             this.TopicService.getTopicDetail(this.selectedTopic, this.numberOfWords).then((result:any)=> {
-                this.topic = result.data.res;
+                this.topic = result;
 
                 this.createChart();
                 this.data_ready = true;

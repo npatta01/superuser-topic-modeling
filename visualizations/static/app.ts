@@ -4,24 +4,25 @@
 module topic_app {
 
 
-    export class SuperUserService{
-        public static $inject = ['$http','$q'];
-        constructor(private $http:angular.IHttpService,private $q:angular.IQService){
+    export class SuperUserService {
+        public static $inject = ['$http', '$q'];
+
+        constructor(private $http:angular.IHttpService, private $q:angular.IQService) {
 
         }
 
-        public getUrl(post_id:number){
-            return "http://superuser.com/questions/"+post_id
+        public getUrl(post_id:number) {
+            return "http://superuser.com/questions/" + post_id
         }
 
 
-        public getRandomPost(){
+        public getSamplePost() {
 
             var deferred = this.$q.defer();
 
 
             this.$http
-                .get('/api/sample_doc' )
+                .get('/api/sample_doc')
 
 
                 .then((result)=> {
@@ -31,6 +32,39 @@ module topic_app {
                 });
 
             return deferred.promise;
+
+        }
+
+
+        public getSpecificPost(question_id) {
+            var deferred = this.$q.defer();
+            var url = "http://api.stackexchange.com/2.1/questions/" + question_id;
+
+
+            this.$http.get(url, {
+                params: {
+                    site: "superuser",
+                    filter: "withbody"
+                }
+            }).success((result:any)=> {
+                var topic:Post = result.items[0];
+                if (!angular.isDefined(topic)) {
+                    topic = <Post>{};
+                    topic.body = "Invalid Question Id";
+                }
+                topic.id = question_id;
+
+
+                deferred.resolve(topic);
+            }).error((result:any)=> {
+                var topic:Post = <Post>{};
+                topic.id = question_id;
+                topic.body = "Invalid Request";
+
+                deferred.resolve(topic);
+            });
+            return deferred.promise;
+
 
         }
 
@@ -59,11 +93,11 @@ module topic_app {
 
         }
 
-        public toggleMenu(){
+        public toggleMenu() {
             this.$mdSidenav('left').toggle();
         }
 
-        public isActive(item:any){
+        public isActive(item:any) {
             if (item.path == this.$location.path()) {
                 return true;
             }
@@ -97,9 +131,9 @@ module topic_app {
         // $routeProvider.otherwise({redirectTo: '/topics'});
     }]);
 
-    topic_app.controller('NavCtrl',NavCtrl);
+    topic_app.controller('NavCtrl', NavCtrl);
 
-    topic_app.service('SuperUserService',SuperUserService);
+    topic_app.service('SuperUserService', SuperUserService);
     //var _topic_app_topic=topic_app_topic;
 
     //var _topic_app_topics=topic_app_topics;

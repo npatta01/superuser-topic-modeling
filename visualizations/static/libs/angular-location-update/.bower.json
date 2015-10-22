@@ -1,5 +1,6 @@
 {
   "name": "angular-location-update",
+  "version": "0.0.2",
   "homepage": "https://github.com/anglibs/angular-location-update",
   "authors": [
     "garmoshka-mo <dan@dub.ink>"
@@ -18,14 +19,13 @@
   "dependencies": {
     "angular": "*"
   },
-  "_release": "103e945c53",
+  "_release": "0.0.2",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
+    "type": "version",
+    "tag": "0.0.2",
     "commit": "103e945c535f9c0e3479c4faf77930404c823f21"
   },
   "_source": "git://github.com/anglibs/angular-location-update.git",
   "_target": "*",
-  "_originalSource": "angular-location-update",
-  "_direct": true
+  "_originalSource": "angular-location-update"
 }

@@ -35,7 +35,7 @@ module topic_app {
     }]);
 
 
-    topic_app_topic.controller('LdaVizCtrl', LdaVizCtrl);
+    topic_app_pyldaviz.controller('LdaVizCtrl', LdaVizCtrl);
 
 
 }

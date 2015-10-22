@@ -6,9 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/data" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/visualizations/static/libs" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7.9 virtualenv at ~/.virtualenvs/pyspark" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ds4_fletcher node_modules" level="project" />
+    <orderEntry type="library" name="metis_fletcher node_modules" level="project" />
   </component>
 </module>

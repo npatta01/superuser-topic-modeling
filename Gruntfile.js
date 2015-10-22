@@ -60,7 +60,7 @@ module.exports = function (grunt) {
 
 
         clean: {
-            client: ['<%= yeoman.client %>/**/*.js', '<%= yeoman.client %>/**/*.js.map']
+            client: ['<%= yeoman.client %>/components/**/*.js', '<%= yeoman.client %>/components/**/*.js.map','<%= yeoman.client %>/*.js.map','<%= yeoman.client %>/*.js']
 
 
         },
@@ -100,15 +100,15 @@ module.exports = function (grunt) {
                 // If specified, generate this file that to can use for reference management
                 reference: '<%= yeoman.client %>/references.ts',
 
-                //out: '<%= yeoman.client %>/app_combined.js',
+                out: '<%= yeoman.client %>/app_combined.js',
                 // watch: "src/main/webapp/js",
                 options: {
                     // 'es3' (default) | 'es5'
                     target: 'es5',
                     // 'amd' (default) | 'commonjs'
-                    module: 'amd',
+                //    module: 'amd',
                     // true (default) | false
-                    sourceMap: true,
+                    //sourceMap: true,
                     // true | false (default)
                     declaration: false,
                     // true (default) | false
@@ -167,7 +167,8 @@ module.exports = function (grunt) {
 
 
     grunt.registerTask('dev_reload', [
-        // 'clean',
+        'clean',
+        'ts:client',
         'browserSync',
         'watch'
 
