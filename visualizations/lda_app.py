@@ -116,9 +116,9 @@ def libs(path):
 
 @app.route('/<path:path>')
 def static_file(path):
-    return flask.send_from_directory('static', path,
-                                     cache_timeout=-10)
-    # return app.send_static_file(path)
+    #return flask.send_from_directory('static', path,
+    #                                 cache_timeout=-10)
+     return app.send_static_file(path)
 
 
 @app.route('/')

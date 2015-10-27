@@ -90,9 +90,23 @@ def filter_parts_of_speech(sentence, part_of_speech_to_keep=None):
         return result
 
 
-def save_dict_to_file(value_dict, path):
+def save_to_json(value_dict, path):
     with open(path, 'w') as fp:
         json.dump(value_dict, fp)
+
+
+def export_top_docs(top_docs):
+    formatted_docs = []
+    for item in top_docs:
+        top_docs_for_id = item['docs']
+        for doc in top_docs_for_id:
+            formatted_doc = {}
+            formatted_doc['id'] = doc['id']
+            formatted_doc['title'] = doc['title']
+            formatted_doc['body'] = doc['question']
+            formatted_docs.append(formatted_doc)
+
+    return formatted_docs
 
 
 class Normalizer(object):
@@ -187,7 +201,9 @@ class SuperUserDatabase(object):
             cursor = conn.cursor()
 
             row = \
-            list(cursor.execute("SELECT Question,Answers,Title, Tags,CreationDate,Id FROM posts WHERE Id=?", (id,)))[0]
+                list(
+                    cursor.execute("SELECT Question,Answers,Title, Tags,CreationDate,Id FROM posts WHERE Id=?", (id,)))[
+                    0]
 
             p = Post(
                 question=row[0]

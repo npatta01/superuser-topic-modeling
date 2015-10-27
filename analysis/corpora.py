@@ -1,4 +1,5 @@
-__author__ = 'npatta01'
+from __future__ import print_function
+import sys
 
 import gensim
 import helper
@@ -40,7 +41,7 @@ class XmlCorpus(object):
             self.documents_parsed += 1
 
     def __iter__(self):
-        print (self.clip_docs)
+        print(self.clip_docs)
         for doc_tokens in self._collection_iterator():
             yield self.dictionary.doc2bow(doc_tokens)
 
@@ -75,10 +76,11 @@ class SuperUserSqliteCorpus(object):
             tokens = self.normalizer.process(doc_content)
             docs_seen += 1
             if docs_seen % 1000 == 0:
-                logging.debug("Iterated over %s of %s docs" % (docs_seen, self.documents_parsed))
-                print("Iterated over %s of %s docs" % (docs_seen, self.documents_parsed))
+                print("\r--- Completed {:,} docs".format(docs_seen), end=' ')
+                sys.stdout.flush()
 
             yield tokens
+        print()
 
     def __update_dictionary(self):
         for doc_tokens in self._collection_iterator():

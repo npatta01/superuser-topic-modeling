@@ -6,48 +6,48 @@
   },
   {
     "id": 1,
-    "name": "Networking Woes",
+    "name": "Unknown",
     "description": "Posts about networking challenges such as setting up home router, ssh server, vpn tunnels, and diagnosing slow networks."
   },
   {
     "id": 2,
-    "name": "Kernel Woes",
-    "description": "Posts seem to be about diagnosing cpu issues "
-  },
-  {
-    "id": 3,
-    "name": "Package Woes",
-    "description": "Posts about installing pacakges"
-  },
-  {
-    "id": 4,
-    "name": "Video Woes",
-    "description": "Posts about video issues such as using ffmpeg to convert video,combine videos"
-  },
-  {
-    "id": 5,
-    "name": "File/Folder Woes",
-    "description": "Posts about file issues such as bulk copying , compressing,renaming. "
-  },
-  {
-    "id": 6,
-    "name": "Excel/Word hacks",
-    "description": "Posts about Microsoft Excel operations usch as VBA macros, functions"
-  },
-  {
-    "id": 7,
     "name": "Monitor/Graphic Card Woes",
     "description": "Posts about graphic card issues such as monitor not displaying max resolution."
   },
   {
-    "id": 8,
+    "id": 3,
+    "name": "Networking Woes",
+    "description": "Posts about networking challenges such as setting up home router, ssh server, vpn tunnels, and diagnosing slow networks."
+  },
+  {
+    "id": 4,
+    "name": "Unknown",
+    "description": "Posts about video issues such as using ffmpeg to convert video,combine videos"
+  },
+  {
+    "id": 5,
+    "name": "Excel/Word hacks",
+    "description": "Posts about Microsoft Excel operations usch as VBA macros, functions."
+  },
+  {
+    "id": 6,
     "name": "OS/Browser hacks",
+    "description": "Posts about browser tasks such as tabs in different browsers, changing OS settings"
+  },
+  {
+    "id": 7,
+    "name": "Unknown",
+    "description": "Posts about graphic card issues such as monitor not displaying max resolution."
+  },
+  {
+    "id": 8,
+    "name": "Unknown",
     "description": "Posts about browser tasks such as tabs in different browsers, changing OS settings "
   },
 
   {
     "id": 9,
-    "name": "Authentication Woes",
-    "description": "Posts about windows, database servers authentication issues."
+    "name": "Video Woes",
+    "description": "Posts about video issues such as using ffmpeg to convert video,combine videos."
   }
 ]
