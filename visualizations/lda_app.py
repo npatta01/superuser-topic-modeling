@@ -12,7 +12,7 @@ from analysis import helper
 
 app = flask.Flask(__name__)
 
-num_topics = 10
+num_topics = 8
 model_serialized_path = 'visualizations/artifacts/lda_topic_%s.lda' % (num_topics)
 dict_path = 'visualizations/artifacts/lda.dict'
 topics_count_path = 'visualizations/artifacts/topics_word_count.json'
