@@ -1,30 +1,35 @@
-<div flex layout="column">
+<div flex layout="row">
+    <div flex="10"></div>
 
-    <md-content>
-        <div flex="20">
-            Some meaningfull content
+    <div flex="80" layout="column">
 
-        </div>
-
-        <div flex="80" ng-show="vm.lda_content">
-            <p ng-bind-html="vm.lda_content">
-
-
-            </p>
-
-        </div>
-
-
-        <!--
-            <div flex="80" class="h_iframe">
-
-                <iframe src="static/components/pyldaviz/lda_vis.html" allowfullscreen frameborder="0"></iframe>
+        <md-content>
+            <div >
+                <h1 class="md-display-3 topic"> Pca on topics</h1>
+                <p class="md-body-2">Principal Component applied on the leaned topics.</p>
+                <p class="md-caption">Created using <a href="https://github.com/benmarwick/LDAviz">LDAviz</a> </p>
             </div>
-        -->
-    </md-content>
+
+            <div flex="80" ng-show="vm.lda_content">
+                <p ng-bind-html="vm.lda_content">
+
+
+                </p>
+
+            </div>
+
+
+            <!--
+                <div flex="80" class="h_iframe">
+
+                    <iframe src="static/components/pyldaviz/lda_vis.html" allowfullscreen frameborder="0"></iframe>
+                </div>
+            -->
+        </md-content>
+    </div>
+
+
+    <div flex="10"></div>
+
 </div>
-
-
-
-
 

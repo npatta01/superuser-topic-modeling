@@ -1,19 +1,23 @@
-<div flex layout="column" offset="20" layout-align="center center">
-    <md-content>
-        <div flex>
-            <h1> Topics</h1>
+<div flex layout="row">
 
-            <div layout="row" layout-wrap  style="padding-bottom: 32px;" ng-cloak
-                 class="topicsContainer">
+    <div flex layout="column" offset="20">
+        <md-content>
+            <div flex>
+                <h1 class="md-display-3 topic"> Topics</h1>
 
 
-                <md-whiteframe class="md-whiteframe-1dp" flex="25" layout="column" layout-align="center center"
-                               ng-repeat="topic in vm.topics track by topic.id" ng-mouseover="vm.hoverIn(topic)"
-                               ng-mouseleave="vm.hoverOut(topic)">
+                <div layout="row" layout-wrap style="padding-bottom: 32px;" ng-cloak
+                     class="topicsContainer">
+
+
+                    <md-whiteframe class="md-whiteframe-1dp" flex="25" layout="column" layout-align="center center"
+                                   ng-repeat="topic in vm.topics track by topic.id" ng-mouseover="vm.hoverIn(topic)"
+                                   ng-mouseleave="vm.hoverOut(topic)">
 
                         <div ng-if="!topic.active">
 
-                            <div ng-repeat="pair in topic.counts | orderBy:weight | limitTo:4"><p>{{pair.text}}</p></div>
+                            <div ng-repeat="pair in topic.counts | orderBy:weight | limitTo:4"><p>{{pair.text}}</p>
+                            </div>
 
 
                         </div>
@@ -26,17 +30,17 @@
                         </div>
 
 
+                    </md-whiteframe>
+                </div>
 
-                </md-whiteframe>
             </div>
 
-        </div>
+
+        </md-content>
+    </div>
 
 
-    </md-content>
 </div>
-
-
 
 
 

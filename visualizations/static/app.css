@@ -130,16 +130,21 @@ span.name {
 }
 #cloud-dynamic {
     width: 80%;
-    min-width: 300px;
+    min-width: 800px;
     height: 400px;
 }
 
 
 .topicsContainer md-whiteframe {
-    background: #fff;
+    background: #F2FCE2;
     margin: 30px;
-    height: 100px;
+    height: 150px;
 }
+
+.topic{
+    text-align: center;
+}
+
 
 
 .wrapper         {width:80%; max-width: 600px; height:100%; margin:0 auto; }
