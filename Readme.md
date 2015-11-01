@@ -6,6 +6,8 @@ The ipython notebook I used for my analysis can be found [here](analysis/superus
 An interactive view of the project can be found [here](https://superuser-topic-modeling.herokuapp.com/#/topics)
 
 [Slides](http://www.slideshare.net/slideshow/embed_code/key/dGQh9SJb6wKIS9) used when I presented to my class
+
+
 [Blog Post](http://npatta01.github.io//2015/10/23/superuser_topic_modeling/)
 
  
