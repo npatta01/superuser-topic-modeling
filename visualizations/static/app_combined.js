@@ -50,6 +50,7 @@ var topic_app;
         AnalyzeCtrl.prototype.questionIdChanged = function () {
             var _this = this;
             this.content = "";
+            this.strongestTopics = [];
             if (angular.isDefined(this.question_id)) {
                 this.SuperUserService.getSpecificPost(this.question_id).then(function (result) {
                     console.log(result);

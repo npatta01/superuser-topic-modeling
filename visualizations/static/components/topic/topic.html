@@ -1,8 +1,8 @@
 <div flex layout="row">
     <div flex="10"></div>
 
-    <div flex="80" layout="column">
-        <div layout="row">
+    <div flex layout="column" >
+        <div  layout="row">
 
             <md-input-container>
                 <label>Topic</label>
@@ -24,7 +24,7 @@
 
         </div>
 
-        <div layout="column" ng-show="vm.topic">
+        <div  layout="column" ng-show="vm.topic">
             <div>
                 <h2>Topic# {{vm.topic.id+1}} {{vm.topic.name}} </h2>
             </div>
@@ -34,49 +34,49 @@
             </div>
         </div>
 
-        <div layout="column" ng-if="vm.data_ready">
+        <div  layout="column" ng-if="vm.data_ready">
 
-            <div flex="50">
+            <div >
                 <jqcloud words="vm.topic.counts" id="cloud-dynamic" auto-resize="true" steps="10"
                          font-size="{from:0.09, to:0.04}"></jqcloud>
             </div>
 
-            <div flex="50">
+            <div >
                 <nvd3 options="vm.chart_options" data="vm.chart_data"></nvd3>
 
             </div>
+            <div layout="column" >
+                <div >
+                    <h2> Top Docs</h2>
+
+                </div>
+
+                <div >
+
+
+                    <ul>
+                        <li dir-paginate="item in vm.strongest_docs | itemsPerPage: 5">
+
+
+                            <a ng-href="{{item.url}}">{{ item.title }}</a>
+
+
+                        </li>
+                    </ul>
+
+
+                    <dir-pagination-controls></dir-pagination-controls>
+
+
+                </div>
+
+
+            </div>
 
 
         </div>
 
 
-        <div layout="column">
-            <div>
-                <h2> Top Docs</h2>
-
-            </div>
-
-            <div>
-
-
-                <ul>
-                    <li dir-paginate="item in vm.strongest_docs | itemsPerPage: 5">
-
-
-                        <a ng-href="{{item.url}}"><h3>{{ item.title }}</h3></a>
-
-
-                    </li>
-                </ul>
-
-
-                <dir-pagination-controls></dir-pagination-controls>
-
-
-            </div>
-
-
-        </div>
 
     </div>
 

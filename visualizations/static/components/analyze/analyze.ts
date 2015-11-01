@@ -44,6 +44,7 @@ module topic_app {
 
             this.content = "";
 
+            this.strongestTopics = [];
             if (angular.isDefined(this.question_id)) {
                 this.SuperUserService.getSpecificPost(this.question_id).then((result:Post)=> {
                     console.log(result);

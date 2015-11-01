@@ -1,91 +1,86 @@
-<div flex layout="row">
-
-    <div flex="10"></div>
-
-    <div flex="80" layout="column">
+<div flex layout="column" offset="20"  layout-margin layout-fill layout-padding >
 
 
-        <div flex>
-            <div layout="column">
+    <md-content>
 
-                <h1 class="md-display-3 topic"> Analyze a new post</h1>
+        <div layout="column">
 
-                <p>
-                    Enter the question id of the super user forum page.
-                </p>
+            <p>
+                Enter the question id of the super user forum page.
+            </p>
 
-                <p>
+            <p>
 
-                    The question id can be found in the url http://superuser.com/questions/question_id/
-                </p>
+                The question id can be found in the url http://superuser.com/questions/question_id/
+            </p>
 
-                <p>
-                    Or click Sample to have a sample question preselected
+            <p>
+                Or click Sample to have a sample question preselected
 
-                </p>
-            </div>
-
-
-            <div layout="column">
-
-                <div>
-                    <md-button class="md-raised md-primary" ng-click="vm.sampleQuestion()">Sample Question
-                    </md-button>
-
-                </div>
-
-                <md-input-container flex>
-                    <label>Question Id</label>
-                    <input ng-model="vm.question_id"
-                           ng-change="vm.questionIdChanged()"
-                           ng-model-options="{ debounce: 1000 }"
-                           required>
-                </md-input-container>
-
-
-                <md-input-container flex>
-                    <label>Content</label>
-                    <textarea ng-model="vm.content" columns="1" md-maxlength="10000" required></textarea>
-                </md-input-container>
-
-
-                <div>
-                    <md-button class="md-raised md-primary" ng-click="vm.getTopics()">Analyze</md-button>
-
-                </div>
-
-            </div>
-
-
-            <div layout="column" ng-show="vm.strongestTopics">
-                <div>
-                    <h2> Topic Strengths</h2>
-
-                </div>
-
-                <div>
-                    <md-list>
-                        <md-list-item class="md-1-line md-long-text" ng-repeat="item in vm.strongestTopics ">
-                            <div class="md-list-item-text" layout="row">
-                                <div>
-                                    <p>
-                                        <a ng-href="#/topic/{{item.id}}">{{ item.name }} </a> ({{item.strength}})
-                                    </p>
-
-                                </div>
-
-
-                            </div>
-                        </md-list-item>
-                    </md-list>
-                </div>
-
-            </div>
+            </p>
         </div>
 
 
-    </div>
-    <div flex="10"></div>
+        <div layout="column">
 
+            <div>
+                <md-button class="md-raised md-primary" ng-click="vm.sampleQuestion()">Sample Question</md-button>
+
+            </div>
+
+            <md-input-container flex>
+                <label>Question Id</label>
+                <input ng-model="vm.question_id"
+                       ng-change="vm.questionIdChanged()"
+                       ng-model-options="{ debounce: 1000 }"
+                       required>
+            </md-input-container>
+
+
+            <md-input-container flex>
+                <label>Content</label>
+                <textarea ng-model="vm.content" columns="1" md-maxlength="10000" required></textarea>
+            </md-input-container>
+
+
+            <div>
+                <md-button class="md-raised md-primary" ng-click="vm.getTopics()">Analyze</md-button>
+
+            </div>
+
+        </div>
+
+
+        <div layout="column" ng-show="vm.strongestTopics">
+            <div>
+                <h2> Topic Strengths</h2>
+
+            </div>
+
+            <div>
+                <md-list>
+                    <md-list-item class="md-1-line md-long-text" ng-repeat="item in vm.strongestTopics ">
+                        <div class="md-list-item-text" layout="row">
+                            <div>
+                                <p>
+                                    <a ng-href="#/topic/{{item.id}}">{{ item.name }} </a> ({{item.strength}})
+                                </p>
+
+                            </div>
+
+
+                        </div>
+                    </md-list-item>
+                </md-list>
+            </div>
+
+        </div>
+
+    </md-content>
 
 </div>
+
+
+
+
+
