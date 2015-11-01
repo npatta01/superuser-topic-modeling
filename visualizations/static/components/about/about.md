@@ -26,3 +26,4 @@ Links:
 
 - [Slides](http://www.slideshare.net/slideshow/embed_code/key/dGQh9SJb6wKIS9)
 - [Blog](http://npatta01.github.io//2015/10/23/superuser_topic_modeling/)
+- [Code](https://github.com/npatta01/superuser-topic-modeling)
