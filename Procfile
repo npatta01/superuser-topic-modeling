@@ -1,1 +1,1 @@
-web: gunicorn topicmodeling.wsgi --log-file -
+web: gunicorn runserver:app --log-file -
