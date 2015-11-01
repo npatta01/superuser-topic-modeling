@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb14e41a-69a5-4c75-a66f-0be0d4e6ce08" name="Default" comment="angular loading bar&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" afterPath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/app.ts" afterPath="$PROJECT_DIR$/visualizations/static/app.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/app_combined.js.map" afterPath="$PROJECT_DIR$/visualizations/static/app_combined.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/app_combined.js" afterPath="$PROJECT_DIR$/visualizations/static/app_combined.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/artifacts/doc_strength.json" afterPath="$PROJECT_DIR$/visualizations/artifacts/doc_strength.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/index.html" afterPath="$PROJECT_DIR$/visualizations/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/artifacts/labels.json" afterPath="$PROJECT_DIR$/visualizations/artifacts/labels.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/lda_app.py" afterPath="$PROJECT_DIR$/visualizations/lda_app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/pyldaviz/lda_viz.html" afterPath="$PROJECT_DIR$/visualizations/static/components/pyldaviz/lda_viz.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/model.py" afterPath="$PROJECT_DIR$/analysis/model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/artifacts/sample_docs.json" afterPath="$PROJECT_DIR$/visualizations/artifacts/sample_docs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/superuser.ipynb" afterPath="$PROJECT_DIR$/analysis/superuser.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topic/topic.html" afterPath="$PROJECT_DIR$/visualizations/static/components/topic/topic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visualizations/static/components/topic/topic.ts" afterPath="$PROJECT_DIR$/visualizations/static/components/topic/topic.ts" />
+    <list default="true" id="eb14e41a-69a5-4c75-a66f-0be0d4e6ce08" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ds4_fletcher.iws" />
@@ -45,45 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visualizations/static/app.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.322581">
-              <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/visualizations/static/components/topic/topic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="analyze.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="analyze.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15167095">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.2083335">
+              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -109,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/visualizations/static/topics/topics.js" />
         <option value="$PROJECT_DIR$/visualizations/Gruntfile.js" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/packages.json" />
@@ -160,6 +121,7 @@
         <option value="$PROJECT_DIR$/visualizations/static/libs/angular-loading-bar/src/loading-bar.css" />
         <option value="$PROJECT_DIR$/visualizations/static/app.ts" />
         <option value="$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -846,7 +808,7 @@
       <workItem from="1446304342420" duration="8991000" />
       <workItem from="1446321294866" duration="22000" />
       <workItem from="1446321350668" duration="206000" />
-      <workItem from="1446321587838" duration="6595000" />
+      <workItem from="1446321587838" duration="6904000" />
     </task>
     <task id="LOCAL-00001" summary="moves files around&#10;created a sqlite corpora iterator">
       <created>1444174004812</created>
@@ -896,17 +858,24 @@
       <option name="project" value="LOCAL" />
       <updated>1446308883882</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="angular loading bar&#10;paginated list of docs">
+      <created>1446342320177</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1446342320177</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196322000" />
+    <option name="totallyTimeSpent" value="196631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="312" width="1024" height="768" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -915,8 +884,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27592954" sideWeight="0.7342342" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27592954" sideWeight="0.26576576" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46575344" sideWeight="0.7342342" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46575344" sideWeight="0.26576576" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -929,7 +898,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -953,7 +921,9 @@
     <MESSAGE value="working sample" />
     <MESSAGE value="model with 8 topics" />
     <MESSAGE value="rearranging layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearranging layout" />
+    <MESSAGE value="angular loading bar&#10;" />
+    <MESSAGE value="angular loading bar&#10;paginated list of docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular loading bar&#10;paginated list of docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,16 +955,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/visualizations/static/components/topics/topics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="104" selection-start-line="15" selection-start-column="100" selection-end-line="15" selection-end-column="104" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#md-content#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1364,8 +1324,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/visualizations/static/components/analyze/analyze.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15167095">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.2083335">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
