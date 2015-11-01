@@ -392,7 +392,7 @@ var topic_app;
         };
         SuperUserService.prototype.getSpecificPost = function (question_id) {
             var deferred = this.$q.defer();
-            var url = "http://api.stackexchange.com/2.1/questions/" + question_id;
+            var url = "https://api.stackexchange.com/2.1/questions/" + question_id;
             this.$http.get(url, {
                 params: {
                     site: "superuser",

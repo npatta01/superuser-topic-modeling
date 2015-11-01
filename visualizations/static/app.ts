@@ -38,7 +38,7 @@ module topic_app {
 
         public getSpecificPost(question_id) {
             var deferred = this.$q.defer();
-            var url = "http://api.stackexchange.com/2.1/questions/" + question_id;
+            var url = "https://api.stackexchange.com/2.1/questions/" + question_id;
 
 
             this.$http.get(url, {
@@ -126,7 +126,8 @@ module topic_app {
 
         $mdThemingProvider.theme('default')
             .primaryPalette('brown')
-            .accentPalette('red');;
+            .accentPalette('red');
+        ;
 
         $mdIconProvider
             .icon("menu", "/static/svg/menu.svg", 24);

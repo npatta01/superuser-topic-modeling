@@ -4,7 +4,9 @@ node_modules
 .ipynb_checkpoints
 data/data.sqlite
 /data/*.xml
+
 *.pyc
+**/**/*.pyc
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -17,7 +19,6 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
