@@ -59,7 +59,7 @@ class Model(object):
 
         return sorted(topic_strength, key=operator.itemgetter(1), reverse=True)
 
-    def calculate_strongest_docs(self, corpora, max_docs=20):
+    def calculate_strongest_docs(self, corpora, max_docs=200):
         topic_strengths = []
         for i in range(self.num_topics):
             topic_strengths.append([])

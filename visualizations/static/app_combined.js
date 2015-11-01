@@ -54,7 +54,7 @@ var topic_app;
                 this.SuperUserService.getSpecificPost(this.question_id).then(function (result) {
                     console.log(result);
                     _this.question_id = result.id;
-                    _this.content = result.body;
+                    _this.content = result.title + "\n\n" + result.body;
                 });
             }
         };
@@ -141,7 +141,7 @@ var topic_app;
             this.TopicService = TopicService;
             this.SuperUserService = SuperUserService;
             this.topic = {};
-            this.numberOfWords = 10;
+            this.numberOfWords = 20;
             this.topics = null;
             this.chart_options = null;
             this.data_ready = false;
@@ -213,7 +213,7 @@ var topic_app;
         return TopicCtrl;
     })();
     topic_app.TopicCtrl = TopicCtrl;
-    topic_app.topic_app_topic = angular.module('topic_app.topic', ['ngRoute', 'angular-jqcloud', 'ngLocationUpdate']);
+    topic_app.topic_app_topic = angular.module('topic_app.topic', ['ngRoute', 'angular-jqcloud', 'ngLocationUpdate', 'bgf.paginateAnything', 'angularUtils.directives.dirPagination']);
     topic_app.topic_app_topic.config(['$routeProvider', function ($routeProvider) {
             $routeProvider.when('/topic/:topicId?', {
                 templateUrl: 'static/components/topic/topic.html',
@@ -403,6 +403,7 @@ var topic_app;
                 if (!angular.isDefined(topic)) {
                     topic = {};
                     topic.body = "Invalid Question Id";
+                    topic.title = "";
                 }
                 topic.id = question_id;
                 deferred.resolve(topic);
@@ -457,8 +458,15 @@ var topic_app;
         'topic_app.about'
     ]);
     topic_app_1.topic_app.config(['$routeProvider', '$mdThemingProvider', '$mdIconProvider', function ($routeProvider, $mdThemingProvider, $mdIconProvider) {
+            $mdThemingProvider.theme('default')
+                .primaryPalette('brown')
+                .accentPalette('red');
+            ;
             $mdIconProvider
                 .icon("menu", "/static/svg/menu.svg", 24);
+            $routeProvider.otherwise({
+                redirectTo: '/topics'
+            });
             // $routeProvider.otherwise({redirectTo: '/topics'});
         }]);
     topic_app_1.topic_app.controller('NavCtrl', NavCtrl);

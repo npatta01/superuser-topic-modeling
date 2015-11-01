@@ -48,7 +48,8 @@ module topic_app {
                 this.SuperUserService.getSpecificPost(this.question_id).then((result:Post)=> {
                     console.log(result);
                     this.question_id = result.id;
-                    this.content = result.body;
+                    this.content = result.title + "\n\n" + result.body;
+
 
                 });
             }

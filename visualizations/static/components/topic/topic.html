@@ -1,5 +1,7 @@
-<div flex layout="column">
-    <md-content >
+<div flex layout="row">
+    <div flex="10"></div>
+
+    <div flex="80" layout="column">
         <div layout="row">
 
             <md-input-container>
@@ -15,7 +17,7 @@
             <md-input-container>
                 <label>Num Words</label>
                 <input required type="number" step="any" ng-model="vm.numberOfWords" min="5"
-                       max="20" ng-change="vm.updatePage()"/>
+                       max="30" ng-change="vm.updatePage()"/>
 
             </md-input-container>
 
@@ -45,8 +47,6 @@
             </div>
 
 
-
-
         </div>
 
 
@@ -57,24 +57,31 @@
             </div>
 
             <div>
-                <md-list>
-                    <md-list-item class="md-1-line md-long-text" ng-repeat="item in vm.strongest_docs | limitTo: 20">
-                        <div class="md-list-item-text" layout="column">
-                            <a ng-href="{{item.url}}"><h3>{{ item.title }}</h3></a>
 
-                        </div>
-                    </md-list-item>
-                </md-list>
+
+                <ul>
+                    <li dir-paginate="item in vm.strongest_docs | itemsPerPage: 5">
+
+
+                        <a ng-href="{{item.url}}"><h3>{{ item.title }}</h3></a>
+
+
+                    </li>
+                </ul>
+
+
+                <dir-pagination-controls></dir-pagination-controls>
+
 
             </div>
 
 
         </div>
-    </md-content>
+
+    </div>
+
+
+    <div flex="10"></div>
 
 </div>
-
-
-
-
 

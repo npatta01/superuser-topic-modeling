@@ -7,7 +7,7 @@ module topic_app {
         public static $inject = ['$routeParams', '$location', 'TopicService', 'SuperUserService'];
 
         public topic:Topic = <Topic>{};
-        public numberOfWords = 10;
+        public numberOfWords = 20;
 
         public topics:Array<Topic> = null;
         public chart_options = null;
@@ -107,7 +107,7 @@ module topic_app {
 
 
     export var topic_app_topic = angular.module('topic_app.topic',
-        ['ngRoute', 'angular-jqcloud', 'ngLocationUpdate']);
+        ['ngRoute', 'angular-jqcloud', 'ngLocationUpdate','bgf.paginateAnything','angularUtils.directives.dirPagination']);
 
 
     topic_app_topic.config(['$routeProvider', function ($routeProvider:angular.route.IRouteProvider) {

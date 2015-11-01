@@ -51,6 +51,7 @@ module topic_app {
                 if (!angular.isDefined(topic)) {
                     topic = <Post>{};
                     topic.body = "Invalid Question Id";
+                    topic.title = "";
                 }
                 topic.id = question_id;
 
@@ -123,10 +124,16 @@ module topic_app {
 
     topic_app.config(['$routeProvider', '$mdThemingProvider', '$mdIconProvider', function ($routeProvider:angular.route.IRouteProvider, $mdThemingProvider:angular.material.IThemingProvider, $mdIconProvider:angular.material.IIconProvider) {
 
+        $mdThemingProvider.theme('default')
+            .primaryPalette('brown')
+            .accentPalette('red');;
 
         $mdIconProvider
             .icon("menu", "/static/svg/menu.svg", 24);
 
+        $routeProvider.otherwise({
+            redirectTo: '/topics'
+        });
 
         // $routeProvider.otherwise({redirectTo: '/topics'});
     }]);
