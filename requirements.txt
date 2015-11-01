@@ -3,6 +3,7 @@ boto==2.38.0
 bz2file==0.98
 Flask==0.10.1
 gensim==0.12.2
+gunicorn==19.3.0
 httpretty==0.8.6
 itsdangerous==0.24
 Jinja2==2.8
