@@ -1,4 +1,8 @@
+node_modules
+.tscache
+.idea/*
 .ipynb_checkpoints
+data/data.sqlite
 /data/*.xml
 *.pyc
 # Byte-compiled / optimized / DLL files
